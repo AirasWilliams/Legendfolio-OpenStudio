@@ -1,0 +1,145 @@
+/* Build 57: one typography, spacing and accent contract across the existing tools. */
+html{--accent:var(--house);--studio-accent-fill:var(--house);--studio-accent-ink:#101820}
+body{font-feature-settings:"cv11","ss01";text-rendering:optimizeLegibility}
+body :is(button,input,select,textarea){font-family:inherit;box-sizing:border-box}
+body :is(.button,.pill){display:inline-flex;align-items:center;justify-content:center;gap:7px;max-width:100%;vertical-align:middle;word-break:normal;overflow-wrap:break-word}
+body .button>svg{width:18px;height:18px;flex:0 0 18px}
+body .button[hidden]{display:none!important}
+body .row{align-items:center;gap:8px;flex-wrap:wrap}
+body .row>.button{flex:0 1 auto;width:auto;margin:0}
+body .button:focus-visible,body summary:focus-visible,body a:focus-visible{outline:2px solid var(--house);outline-offset:3px}
+body .button.primary,html[data-theme=light] body .button.primary{background:var(--studio-accent-fill)!important;color:var(--studio-accent-ink)!important;border-color:color-mix(in srgb,var(--studio-accent-fill) 70%,var(--line))!important;box-shadow:0 2px 12px rgba(var(--house-rgb),.07)}
+html[data-preset-finish=Metallic] body .button.primary{background:linear-gradient(125deg,color-mix(in srgb,var(--studio-accent-fill) 70%,white),var(--studio-accent-fill) 48%,color-mix(in srgb,var(--studio-accent-fill) 82%,white))!important}
+body :is(.launch-colour,.launch-family,.launch-level)[aria-pressed=true]{border-color:var(--house)!important}
+body .toolbar{align-items:center!important;gap:10px!important}
+body .toolbar>:is(.button,.modern-tour-nudge),body .toolbar .ui-app-menu>.button{height:44px!important;min-height:44px!important;max-height:44px!important;margin-block:0!important;line-height:1.3!important;white-space:nowrap!important}
+body .toolbar #launch-home{min-width:110px;padding-inline:12px!important;flex:0 0 auto}
+body .toolbar .modern-tour-nudge{min-width:104px;padding-inline:12px!important;flex:0 0 auto}
+body .toolbar #open-campaigns{display:block!important;min-width:0;max-width:clamp(180px,20vw,360px)!important;overflow:hidden!important;text-overflow:ellipsis!important;white-space:nowrap!important;text-align:left!important;padding-inline:13px!important}
+body .toolbar .ui-app-menu{align-items:center!important;gap:8px!important}
+body .studio-tabs>:is(button,.ui-nav-document){overflow:visible!important;white-space:normal!important;text-align:center;justify-content:center;line-height:1.35!important;padding-inline:3px!important}
+body .studio-tabs>:is(button,.ui-nav-document) svg{flex-shrink:0}
+body .studio-tabs>:is(button,.ui-nav-document) span{min-width:0;max-width:100%;white-space:normal;overflow-wrap:normal}
+body .hero-art{isolation:isolate}
+body .hero-art .ui-portrait-edit{width:36px!important;height:36px!important;min-width:36px!important;min-height:36px!important;max-width:36px!important;padding:8px!important;border-radius:10px!important;background:color-mix(in srgb,var(--mx-bg) 75%,transparent)!important;backdrop-filter:blur(12px);border:1px solid #ffffff42!important}
+body .hero-art .ui-portrait-edit svg{width:19px;height:19px}
+body :is(.workspace-heading,.context-heading,.dm-page-heading,.card-heading){align-items:center;gap:12px;min-width:0}
+body :is(.workspace-heading,.context-heading,.dm-page-heading,.card-heading)>:is(h2,h3){min-width:0;overflow-wrap:anywhere;line-height:1.3!important}
+body :is(.workspace-heading,.context-heading,.dm-page-heading,.card-heading)>.button{flex-shrink:0}
+body .workspace .ui-play-workbench .button.primary{background:rgba(var(--house-rgb),.14)!important;color:var(--house)!important;border:1px solid rgba(var(--house-rgb),.3)!important}
+body .workspace .ui-play-workbench :is(.card,.ui-tools-column,.encounter-player){padding:18px!important}
+body .workspace .ui-play-workbench :is(h3,.card-title){font-size:14px!important;line-height:1.4!important;margin-top:0}
+body .workspace .ui-play-workbench .coach-hint{margin:10px 0 16px!important;font-size:13px!important;line-height:1.65!important}
+body .workspace .ui-play-workbench .row{margin-top:12px}
+body .workspace .intent-grid>.button{min-height:48px;line-height:1.4!important}
+body .workspace .choice-card{padding:13px 14px!important;min-height:52px;line-height:1.5}
+body .workspace .choice-card :is(strong,small){overflow-wrap:anywhere}
+body .workspace .budget-grid{gap:8px!important}
+body .workspace .budget-grid>div{min-width:0;line-height:1.5}
+body .workspace .budget-grid :is(small,span){font-size:11px!important}
+body .workspace .budget-grid strong{font-size:13px!important}
+body .workspace .ui-play-workbench .amount{width:64px;max-width:80px;min-width:48px}
+body .workspace .ui-play-workbench .hint{font-size:12px!important;line-height:1.6}
+body .modern-context .context-card{padding:18px 0!important}
+body .modern-context .context-heading{margin-bottom:12px;flex-wrap:wrap}
+body .modern-context .context-card :is(p,small){font-size:13px!important;line-height:1.65}
+body .modern-context .live-hp-line{display:flex!important;align-items:center;gap:8px;flex-wrap:wrap!important}
+body .modern-context .live-hp-line .button{min-height:36px!important;padding:8px 10px!important;font-size:12px!important}
+body .modern-context .live-party-member{padding-block:16px!important}
+body .modern-context .live-party-member :is(h4,strong){font-size:14px!important;line-height:1.4!important}
+body .modern-context .live-party-member header{display:block!important;margin-bottom:12px}
+body .modern-context .live-party-member header small{display:block;margin-top:4px}
+body .modern-context .live-hp-bar{height:5px;margin-block:10px}
+body #character-overview .card{padding:18px!important}
+body #character-overview .card>:is(h2,h3){font-size:14px!important;margin:0 0 16px;line-height:1.4!important}
+body #character-overview .roll-row{gap:10px;line-height:1.5}
+body #character-overview .roll-row>:first-child{min-width:0}
+body :is(.connection-row,.connection-review-row,.builder-cloud-row){gap:14px;min-width:0;align-items:center}
+body :is(.connection-row,.connection-review-row,.builder-cloud-row) :is(h3,h4,strong,p){overflow-wrap:anywhere;line-height:1.5}
+body .connection-status-details>summary{min-height:32px;line-height:1.5}
+body .connection-tag{white-space:normal;line-height:1.5}
+body dialog :is(.fields,.record-form)>label{min-width:0}
+body dialog :is(input,select,textarea){max-width:100%;min-width:0;line-height:1.5}
+body dialog :is(.row,.modal-top){gap:12px;align-items:center}
+body dialog .modal-top h2{line-height:1.3!important;overflow-wrap:anywhere}
+body .control-status-card{padding:22px!important;border-radius:16px!important;background:linear-gradient(125deg,rgba(var(--house-rgb),.05),transparent 75%),color-mix(in srgb,var(--mx-panel) 70%,transparent)!important}
+body .control-status-card h3{font-size:17px!important;line-height:1.4!important}
+body .control-status-card p{font-size:13px!important;line-height:1.65!important}
+body #studio-modal.modern-control-centre .ui-menu-item{padding:15px 12px!important;min-height:58px}
+body #studio-modal.modern-control-centre .ui-menu-item strong{font-size:14px!important;line-height:1.5}
+body #studio-modal.modern-control-centre .ui-menu-item small{font-size:12px!important;line-height:1.6}
+@media screen and (min-width:700px){
+ body .workspace>.studio-tabs{width:100%!important;align-items:stretch!important}
+ body .workspace>.studio-tabs>:is(button,.ui-nav-document){width:100%!important;min-width:0!important;min-height:58px!important;gap:6px!important}
+}
+@media screen and (min-width:1600px){
+ body .workspace .ui-character-anchor .hero-art{max-height:380px!important}
+ body .workspace .ui-play-workbench .card{padding:20px!important}
+ body .workspace .ui-play-workbench :is(h3,.card-title){font-size:15px!important}
+}
+@media screen and (min-width:2600px){
+ body .workspace .ui-character-anchor .hero-art{max-height:440px!important}
+ body .workspace .ui-play-workbench .card{padding:24px!important}
+ body .workspace .ui-play-workbench :is(h3,.card-title){font-size:17px!important}
+ body .modern-context .context-card :is(p,small){font-size:14px!important}
+ body #character-overview .card>:is(h2,h3){font-size:17px!important}
+ body #character-overview .card{padding:22px!important}
+ body #studio-modal.modern-control-centre .control-tools-grid{gap:32px!important}
+ body #studio-modal.modern-control-centre .ui-menu-item strong{font-size:16px!important}
+ body #studio-modal.modern-control-centre .ui-menu-item small{font-size:14px!important}
+ body .control-status-card h3{font-size:22px!important}
+ body .control-status-card p{font-size:15px!important}
+}
+@media screen and (min-width:700px) and (max-width:1199.98px){
+ body .toolbar #open-campaigns{max-width:100%!important}
+ body .toolbar #launch-home{display:none!important}
+ body .workspace .intent-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+}
+@media screen and (max-width:699.98px){
+ body .toolbar #launch-home{display:none!important}
+ body .toolbar #open-campaigns{max-width:100%!important;font-size:12px!important}
+ body .toolbar #switch-mode{font-size:12px!important;padding-inline:10px!important}
+ body .toolbar .ui-app-menu>.button{font-size:12px!important;padding-inline:12px!important}
+ body .workspace .ui-play-workbench :is(.card,.ui-tools-column,.encounter-player){padding:15px!important}
+ body .workspace .ui-play-workbench .row{gap:6px}
+ body .workspace .ui-play-workbench .row>.button{min-height:42px;font-size:12px!important;padding:9px 11px!important}
+ body .workspace .intent-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+ body .workspace .intent-grid>.button{font-size:12px!important;padding:10px 5px!important}
+ body .workspace .budget-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+ body #character-overview .card{padding:15px!important}
+ body .control-status-card{padding:18px!important}
+ body :is(.connection-row,.builder-cloud-row){flex-wrap:wrap}
+ body dialog:not(#launch-hub):not(#campaign-builder) :is(.fields,.record-form){gap:16px!important}
+}
+@media screen and (max-width:359.98px){
+ body .workspace .intent-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+ body .workspace .ui-play-workbench .row>.button{padding-inline:9px!important}
+}
+@media(pointer:coarse){body .button,body .ui-portrait-edit{min-height:44px!important}body .hero-art .ui-portrait-edit{width:44px!important;height:44px!important;min-width:44px!important;max-width:44px!important}}
+@media print{body .toolbar{display:none!important}body .modern-context .context-card{break-inside:avoid}}
+
+/* Rows follow their content; short parties never reserve empty grid rows. */
+body .dm57-workspace .dm-navigation-rail{background:transparent!important;border-right:1px solid var(--line)!important;box-shadow:none!important}
+@media screen and (min-width:1600px){
+ .dm57-overview-grid{grid-auto-flow:row dense}
+ .dm57-overview-grid>.dm57-panel{grid-column:auto;grid-row:auto}
+ .dm57-overview-grid>.dm57-party-panel{grid-column:2/span 2;grid-row:1}
+ .dm57-context{grid-template-columns:minmax(240px,580px) minmax(200px,1fr) auto}
+}
+
+html:has(#campaign-builder[open]),body:has(#campaign-builder[open]){overflow:hidden!important}
+@media screen and (max-width:540px){.cb-progress nav button>strong{font-size:11px!important;line-height:1.35!important;white-space:normal}.cb-progress nav button{min-height:64px}.cb-progress{min-height:80px}}
+
+@media screen and (min-width:950px){body .studio-tabs>:is(button,.ui-nav-document){font-size:12px!important}}
+@media screen and (min-width:2600px){body .studio-tabs>:is(button,.ui-nav-document){font-size:13px!important;min-height:64px!important}body .studio-tabs svg{width:24px!important;height:24px!important}}
+
+@media screen and (min-width:700px){
+ body .dm57-workspace .dm-campaign-bar{padding:4px 0 16px!important;margin-bottom:16px!important}
+ body .dm57-workspace .dm-campaign-bar h1{margin:6px 0 0!important;font-size:clamp(27px,1.3vw + 10px,38px)!important;line-height:1.2!important}
+ body .dm57-workspace .dm-workbench-grid{padding-top:20px!important}
+ body .dm57-workspace .dm-page-heading{padding-bottom:16px!important}
+ body .dm57-workspace .dm-page-heading h2{margin:0!important}
+ body .dm57-workspace .dm-page-heading p{margin:8px 0 0!important}
+}
+
+@media screen and (min-width:1050px) and (max-width:1599px){.dm57-overview-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}.dm57-overview-grid>.dm57-party-panel{grid-column:1/-1}}

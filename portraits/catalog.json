@@ -1,0 +1,898 @@
+[
+  {
+    "id": "dragonborn-amber",
+    "ancestry": "Dragonborn",
+    "description": "A bronze-gold dragonborn with swept horns and a navy cloak",
+    "name": "Amber",
+    "file": "dragonborn-amber.webp",
+    "gender": "Female"
+  },
+  {
+    "id": "dragonborn-ivory",
+    "ancestry": "Dragonborn",
+    "description": "a masculine silver-scaled dragonborn with swept horns and a burgundy cloak",
+    "name": "Ivory",
+    "file": "dragonborn-ivory.webp",
+    "gender": "Male"
+  },
+  {
+    "id": "dwarf-copper",
+    "ancestry": "Dwarf",
+    "description": "a sturdy female dwarf with brown skin, auburn braids and a green travelling coat",
+    "name": "Copper",
+    "file": "dwarf-copper.webp",
+    "gender": "Female"
+  },
+  {
+    "id": "dwarf-slate",
+    "ancestry": "Dwarf",
+    "description": "an older male dwarf with dark skin, a silver braided beard and navy leather armour",
+    "name": "Slate",
+    "file": "dwarf-slate.webp",
+    "gender": "Male"
+  },
+  {
+    "id": "elf-moon",
+    "ancestry": "Elf",
+    "description": "an androgynous pale elf with long white hair, pointed ears and a charcoal tunic",
+    "name": "Moon",
+    "file": "elf-moon.webp",
+    "gender": "Androgynous"
+  },
+  {
+    "id": "elf-wood",
+    "ancestry": "Elf",
+    "description": "a dark-skinned female elf with short curly hair, pointed ears and forest-green leather",
+    "name": "Wood",
+    "file": "elf-wood.webp",
+    "gender": "Female"
+  },
+  {
+    "id": "elf-dawn",
+    "ancestry": "Elf",
+    "description": "a freckled male elf with red hair, pointed ears and a blue mage cloak",
+    "name": "Dawn",
+    "file": "elf-dawn.webp",
+    "gender": "Male"
+  },
+  {
+    "id": "gnome-lilac",
+    "ancestry": "Gnome",
+    "description": "a female gnome with expressive large ears, purple-black hair and a practical plum coat",
+    "name": "Lilac",
+    "file": "gnome-lilac.webp",
+    "gender": "Female"
+  },
+  {
+    "id": "gnome-ochre",
+    "ancestry": "Gnome",
+    "description": "an older male gnome with warm brown skin, bushy white eyebrows, large ears and brass goggles on his forehead",
+    "name": "Ochre",
+    "file": "gnome-ochre.webp",
+    "gender": "Male"
+  },
+  {
+    "id": "half-elf-river",
+    "ancestry": "Half-Elf",
+    "description": "a female half-elf with warm olive skin, shoulder-length wavy brown hair, subtly pointed ears and teal cloak",
+    "name": "River",
+    "file": "half-elf-river.webp",
+    "gender": "Female"
+  },
+  {
+    "id": "half-elf-ash",
+    "ancestry": "Half-Elf",
+    "description": "a masculine half-elf with deep brown skin, closely cropped silver hair, subtly pointed ears and weathered leather",
+    "name": "Ash",
+    "file": "half-elf-ash.webp",
+    "gender": "Male"
+  },
+  {
+    "id": "half-orc-fern",
+    "ancestry": "Half-Orc",
+    "description": "a female half-orc with grey-green skin, small tusks, black braided hair and ochre travelling coat",
+    "name": "Fern",
+    "file": "half-orc-fern.webp",
+    "gender": "Female"
+  },
+  {
+    "id": "half-orc-iron",
+    "ancestry": "Half-Orc",
+    "description": "a male half-orc with olive-green skin, small tusks, shaved head, beard and blue armour",
+    "name": "Iron",
+    "file": "half-orc-iron.webp",
+    "gender": "Male"
+  },
+  {
+    "id": "halfling-rose",
+    "ancestry": "Halfling",
+    "description": "a cheerful adult female halfling with a round face, freckles, auburn curls and a burgundy waistcoat",
+    "name": "Rose",
+    "file": "halfling-rose.webp",
+    "gender": "Female"
+  },
+  {
+    "id": "halfling-moss",
+    "ancestry": "Halfling",
+    "description": "an older male halfling with brown skin, curly grey hair and a green travelling vest",
+    "name": "Moss",
+    "file": "halfling-moss.webp",
+    "gender": "Male"
+  },
+  {
+    "id": "human-sun",
+    "ancestry": "Human",
+    "description": "a female human adventurer with dark brown skin, tightly curled black hair and a crimson travelling cloak",
+    "name": "Sun",
+    "file": "human-sun.webp",
+    "gender": "Female"
+  },
+  {
+    "id": "human-storm",
+    "ancestry": "Human",
+    "description": "a masculine East Asian human adventurer with long black hair tied back, a faint scar and a blue embroidered coat",
+    "name": "Storm",
+    "file": "human-storm.webp",
+    "gender": "Male"
+  },
+  {
+    "id": "human-winter",
+    "ancestry": "Human",
+    "description": "an older female human with fair freckled skin, a silver braid, confident expression and dark green coat",
+    "name": "Winter",
+    "file": "human-winter.webp",
+    "gender": "Female"
+  },
+  {
+    "id": "tiefling-ember",
+    "ancestry": "Tiefling",
+    "description": "a female tiefling with deep red skin, curved black horns, gold eyes and charcoal robes",
+    "name": "Ember",
+    "file": "tiefling-ember.webp",
+    "gender": "Female"
+  },
+  {
+    "id": "tiefling-dusk",
+    "ancestry": "Tiefling",
+    "description": "an androgynous tiefling with lavender skin, ridged swept horns, short dark curls and teal leather",
+    "name": "Dusk",
+    "file": "tiefling-dusk.webp",
+    "gender": "Androgynous"
+  },
+  {
+    "id": "goliath-granite",
+    "ancestry": "Goliath",
+    "description": "a masculine goliath with grey stone-like skin, bald head, subtle dark geometric markings and a fur-lined blue cloak",
+    "name": "Granite",
+    "file": "goliath-granite.webp",
+    "gender": "Male"
+  },
+  {
+    "id": "goliath-snow",
+    "ancestry": "Goliath",
+    "description": "a female goliath with grey-blue stone-like skin, dark geometric markings, white braided hair and a burgundy cloak",
+    "name": "Snow",
+    "file": "goliath-snow.webp",
+    "gender": "Female"
+  },
+  {
+    "id": "orc-jade",
+    "ancestry": "Orc",
+    "description": "a female orc with rich green skin, prominent lower tusks, black braids and bronze-trimmed leather armour",
+    "name": "Jade",
+    "file": "orc-jade.webp",
+    "gender": "Female"
+  },
+  {
+    "id": "orc-basalt",
+    "ancestry": "Orc",
+    "description": "an older male orc with grey-green skin, prominent lower tusks, silver hair and a navy travelling coat",
+    "name": "Basalt",
+    "file": "orc-basalt.webp",
+    "gender": "Male"
+  },
+  {
+    "id": "dragonborn-male-02",
+    "ancestry": "Dragonborn",
+    "gender": "Male",
+    "name": "Resolute",
+    "description": "a middle-aged adult male Dragonborn adventurer with blue scales, long swept horns, silver-trimmed coat; a focused determined gaze with a slightly raised chin; wearing a burgundy cloak and weathered leather",
+    "file": "dragonborn-male-02.webp"
+  },
+  {
+    "id": "dragonborn-male-03",
+    "ancestry": "Dragonborn",
+    "gender": "Male",
+    "name": "Wry",
+    "description": "an older adult male Dragonborn adventurer with black scales, gold eyes, chipped horn, green cloak; a playful lopsided grin and one raised eyebrow; wearing a charcoal embroidered tunic",
+    "file": "dragonborn-male-03.webp"
+  },
+  {
+    "id": "dragonborn-male-04",
+    "ancestry": "Dragonborn",
+    "gender": "Male",
+    "name": "Reflective",
+    "description": "an adult in their thirties male Dragonborn adventurer with white scales, antler-like horns, dark plum coat; a thoughtful gentle expression looking slightly off-camera; wearing a forest-green mantle and simple metal clasp",
+    "file": "dragonborn-male-04.webp"
+  },
+  {
+    "id": "dragonborn-male-05",
+    "ancestry": "Dragonborn",
+    "gender": "Male",
+    "name": "Steadfast",
+    "description": "an older seasoned adult male Dragonborn adventurer with green scales, amber eyes, small swept horns, navy cloak; a stern battle-worn expression with alert eyes; wearing a navy travelling coat with modest bronze trim",
+    "file": "dragonborn-male-05.webp"
+  },
+  {
+    "id": "dragonborn-female-02",
+    "ancestry": "Dragonborn",
+    "gender": "Female",
+    "name": "Wry",
+    "description": "an adult female Dragonborn with white scales, elegant ivory horns, a playful lopsided reptilian smile, deep blue eyes, a dark green cloak, a clearly reptilian head with a projecting dragon snout and broad scaled muzzle",
+    "file": "dragonborn-female-02.webp"
+  },
+  {
+    "id": "dragonborn-female-03",
+    "ancestry": "Dragonborn",
+    "gender": "Female",
+    "name": "Reflective",
+    "description": "an adult female Dragonborn with moss green scales, a thoughtful gentle expression, swept horns and a navy cloak, a clearly reptilian head with a projecting dragon snout and broad scaled muzzle",
+    "file": "dragonborn-female-03.webp"
+  },
+  {
+    "id": "dragonborn-female-04",
+    "ancestry": "Dragonborn",
+    "gender": "Female",
+    "name": "Steadfast",
+    "description": "an adult female Dragonborn with crimson scales, short ivory horns, a stern determined expression and an ochre travelling cloak, a clearly reptilian head with a projecting dragon snout and broad scaled muzzle",
+    "file": "dragonborn-female-04.webp"
+  },
+  {
+    "id": "dragonborn-female-05",
+    "ancestry": "Dragonborn",
+    "gender": "Female",
+    "name": "Bright",
+    "description": "an adult female Dragonborn with cobalt blue scales, curved horns, a warm bright reptilian smile, gold eyes and a burgundy cloak, a clearly reptilian head with a projecting dragon snout and broad scaled muzzle",
+    "file": "dragonborn-female-05.webp"
+  },
+  {
+    "id": "dwarf-male-02",
+    "ancestry": "Dwarf",
+    "gender": "Male",
+    "name": "Resolute",
+    "description": "a middle-aged adult male Dwarf adventurer with fair freckled skin, wavy chestnut hair; a focused determined gaze with a slightly raised chin; wearing a burgundy cloak and weathered leather",
+    "file": "dwarf-male-02.webp"
+  },
+  {
+    "id": "dwarf-male-03",
+    "ancestry": "Dwarf",
+    "gender": "Male",
+    "name": "Wry",
+    "description": "an older adult male Dwarf adventurer with olive skin, white braids, lined weathered face; a playful lopsided grin and one raised eyebrow; wearing a charcoal embroidered tunic",
+    "file": "dwarf-male-03.webp"
+  },
+  {
+    "id": "dwarf-male-04",
+    "ancestry": "Dwarf",
+    "gender": "Male",
+    "name": "Reflective",
+    "description": "an adult in their thirties male Dwarf adventurer with warm brown skin, red curls, broad nose; a thoughtful gentle expression looking slightly off-camera; wearing a forest-green mantle and simple metal clasp",
+    "file": "dwarf-male-04.webp"
+  },
+  {
+    "id": "dwarf-male-05",
+    "ancestry": "Dwarf",
+    "gender": "Male",
+    "name": "Steadfast",
+    "description": "an older seasoned adult male Dwarf adventurer with pale skin, dark hair with silver streaks, square jaw; a stern battle-worn expression with alert eyes; wearing a navy travelling coat with modest bronze trim",
+    "file": "dwarf-male-05.webp"
+  },
+  {
+    "id": "dwarf-female-02",
+    "ancestry": "Dwarf",
+    "gender": "Female",
+    "name": "Wry",
+    "description": "a middle-aged adult female Dwarf adventurer with warm brown skin, red curls, broad nose; a playful lopsided grin and one raised eyebrow; wearing a forest-green mantle and simple metal clasp",
+    "file": "dwarf-female-02.webp"
+  },
+  {
+    "id": "dwarf-female-03",
+    "ancestry": "Dwarf",
+    "gender": "Female",
+    "name": "Reflective",
+    "description": "an older adult female Dwarf adventurer with pale skin, dark hair with silver streaks, square jaw; a thoughtful gentle expression looking slightly off-camera; wearing a navy travelling coat with modest bronze trim",
+    "file": "dwarf-female-03.webp"
+  },
+  {
+    "id": "dwarf-female-04",
+    "ancestry": "Dwarf",
+    "gender": "Female",
+    "name": "Steadfast",
+    "description": "an adult in their thirties female Dwarf adventurer with deep brown skin, black locs, copper ear cuffs; a stern battle-worn expression with alert eyes; wearing a practical teal travelling coat",
+    "file": "dwarf-female-04.webp"
+  },
+  {
+    "id": "dwarf-female-05",
+    "ancestry": "Dwarf",
+    "gender": "Female",
+    "name": "Bright",
+    "description": "an older seasoned adult female Dwarf adventurer with fair freckled skin, wavy chestnut hair; an open warm smile and bright engaged eyes; wearing a burgundy cloak and weathered leather",
+    "file": "dwarf-female-05.webp"
+  },
+  {
+    "id": "elf-male-02",
+    "ancestry": "Elf",
+    "gender": "Male",
+    "name": "Resolute",
+    "description": "a middle-aged adult male Elf adventurer with golden-brown skin, waist-length black braids, pointed ears; a focused determined gaze with a slightly raised chin; wearing a burgundy cloak and weathered leather",
+    "file": "elf-male-02.webp"
+  },
+  {
+    "id": "elf-male-03",
+    "ancestry": "Elf",
+    "gender": "Male",
+    "name": "Wry",
+    "description": "an older adult male Elf adventurer with pale freckled skin, cropped auburn hair, pointed ears; a playful lopsided grin and one raised eyebrow; wearing a charcoal embroidered tunic",
+    "file": "elf-male-03.webp"
+  },
+  {
+    "id": "elf-male-04",
+    "ancestry": "Elf",
+    "gender": "Male",
+    "name": "Reflective",
+    "description": "an adult in their thirties male Elf adventurer with olive skin, wavy black hair with grey streaks, pointed ears; a thoughtful gentle expression looking slightly off-camera; wearing a forest-green mantle and simple metal clasp",
+    "file": "elf-male-04.webp"
+  },
+  {
+    "id": "elf-male-05",
+    "ancestry": "Elf",
+    "gender": "Male",
+    "name": "Steadfast",
+    "description": "an older seasoned adult male Elf adventurer with copper skin, dark curly hair, long pointed ears; a stern battle-worn expression with alert eyes; wearing a navy travelling coat with modest bronze trim",
+    "file": "elf-male-05.webp"
+  },
+  {
+    "id": "elf-female-02",
+    "ancestry": "Elf",
+    "gender": "Female",
+    "name": "Wry",
+    "description": "a middle-aged adult female Elf adventurer with olive skin, wavy black hair with grey streaks, pointed ears; a playful lopsided grin and one raised eyebrow; wearing a forest-green mantle and simple metal clasp",
+    "file": "elf-female-02.webp"
+  },
+  {
+    "id": "elf-female-03",
+    "ancestry": "Elf",
+    "gender": "Female",
+    "name": "Reflective",
+    "description": "an older adult female Elf adventurer with copper skin, dark curly hair, long pointed ears; a thoughtful gentle expression looking slightly off-camera; wearing a navy travelling coat with modest bronze trim",
+    "file": "elf-female-03.webp"
+  },
+  {
+    "id": "elf-female-04",
+    "ancestry": "Elf",
+    "gender": "Female",
+    "name": "Steadfast",
+    "description": "an adult in their thirties female Elf adventurer with deep brown skin, short silver curls, long pointed ears; a stern battle-worn expression with alert eyes; wearing a practical teal travelling coat",
+    "file": "elf-female-04.webp"
+  },
+  {
+    "id": "elf-female-05",
+    "ancestry": "Elf",
+    "gender": "Female",
+    "name": "Bright",
+    "description": "an older seasoned adult female Elf adventurer with golden-brown skin, waist-length black braids, pointed ears; an open warm smile and bright engaged eyes; wearing a burgundy cloak and weathered leather",
+    "file": "elf-female-05.webp"
+  },
+  {
+    "id": "gnome-male-02",
+    "ancestry": "Gnome",
+    "gender": "Male",
+    "name": "Resolute",
+    "description": "a middle-aged adult male Gnome adventurer with fair freckled skin, short blue-black hair, large ears; a focused determined gaze with a slightly raised chin; wearing a burgundy cloak and weathered leather",
+    "file": "gnome-male-02.webp"
+  },
+  {
+    "id": "gnome-male-03",
+    "ancestry": "Gnome",
+    "gender": "Male",
+    "name": "Wry",
+    "description": "an older adult male Gnome adventurer with olive skin, white swept hair, expressive eyebrows, large ears; a playful lopsided grin and one raised eyebrow; wearing a charcoal embroidered tunic",
+    "file": "gnome-male-03.webp"
+  },
+  {
+    "id": "gnome-male-04",
+    "ancestry": "Gnome",
+    "gender": "Male",
+    "name": "Reflective",
+    "description": "an adult in their thirties male Gnome adventurer with deep brown skin, silver dreadlocks, large pointed ears; a thoughtful gentle expression looking slightly off-camera; wearing a forest-green mantle and simple metal clasp",
+    "file": "gnome-male-04.webp"
+  },
+  {
+    "id": "gnome-male-05",
+    "ancestry": "Gnome",
+    "gender": "Male",
+    "name": "Steadfast",
+    "description": "an older seasoned adult male Gnome adventurer with tan skin, tousled black hair, brass spectacles, large ears; a stern battle-worn expression with alert eyes; wearing a navy travelling coat with modest bronze trim",
+    "file": "gnome-male-05.webp"
+  },
+  {
+    "id": "gnome-female-02",
+    "ancestry": "Gnome",
+    "gender": "Female",
+    "name": "Wry",
+    "description": "a middle-aged adult female Gnome adventurer with deep brown skin, silver dreadlocks, large pointed ears; a playful lopsided grin and one raised eyebrow; wearing a forest-green mantle and simple metal clasp",
+    "file": "gnome-female-02.webp"
+  },
+  {
+    "id": "gnome-female-03",
+    "ancestry": "Gnome",
+    "gender": "Female",
+    "name": "Reflective",
+    "description": "an older adult female Gnome adventurer with tan skin, tousled black hair, brass spectacles, large ears; a thoughtful gentle expression looking slightly off-camera; wearing a navy travelling coat with modest bronze trim",
+    "file": "gnome-female-03.webp"
+  },
+  {
+    "id": "gnome-female-04",
+    "ancestry": "Gnome",
+    "gender": "Female",
+    "name": "Steadfast",
+    "description": "an adult in their thirties female Gnome adventurer with brown skin, tightly curled red hair, large pointed ears; a stern battle-worn expression with alert eyes; wearing a practical teal travelling coat",
+    "file": "gnome-female-04.webp"
+  },
+  {
+    "id": "gnome-female-05",
+    "ancestry": "Gnome",
+    "gender": "Female",
+    "name": "Bright",
+    "description": "an older seasoned adult female Gnome adventurer with fair freckled skin, short blue-black hair, large ears; an open warm smile and bright engaged eyes; wearing a burgundy cloak and weathered leather",
+    "file": "gnome-female-05.webp"
+  },
+  {
+    "id": "half-elf-male-02",
+    "ancestry": "Half-Elf",
+    "gender": "Male",
+    "name": "Resolute",
+    "description": "a middle-aged adult male Half-Elf adventurer with fair skin, freckles, red curls, subtly pointed ears; a focused determined gaze with a slightly raised chin; wearing a burgundy cloak and weathered leather",
+    "file": "half-elf-male-02.webp"
+  },
+  {
+    "id": "half-elf-male-03",
+    "ancestry": "Half-Elf",
+    "gender": "Male",
+    "name": "Wry",
+    "description": "an older adult male Half-Elf adventurer with olive skin, shaved sides and white hair, subtly pointed ears; a playful lopsided grin and one raised eyebrow; wearing a charcoal embroidered tunic",
+    "file": "half-elf-male-03.webp"
+  },
+  {
+    "id": "half-elf-male-04",
+    "ancestry": "Half-Elf",
+    "gender": "Male",
+    "name": "Reflective",
+    "description": "an adult in their thirties male Half-Elf adventurer with copper skin, wavy brown hair, subtly pointed ears; a thoughtful gentle expression looking slightly off-camera; wearing a forest-green mantle and simple metal clasp",
+    "file": "half-elf-male-04.webp"
+  },
+  {
+    "id": "half-elf-male-05",
+    "ancestry": "Half-Elf",
+    "gender": "Male",
+    "name": "Steadfast",
+    "description": "an older seasoned adult male Half-Elf adventurer with warm brown skin, cropped grey hair, subtly pointed ears; a stern battle-worn expression with alert eyes; wearing a navy travelling coat with modest bronze trim",
+    "file": "half-elf-male-05.webp"
+  },
+  {
+    "id": "half-elf-female-02",
+    "ancestry": "Half-Elf",
+    "gender": "Female",
+    "name": "Wry",
+    "description": "a middle-aged adult female Half-Elf adventurer with copper skin, wavy brown hair, subtly pointed ears; a playful lopsided grin and one raised eyebrow; wearing a forest-green mantle and simple metal clasp",
+    "file": "half-elf-female-02.webp"
+  },
+  {
+    "id": "half-elf-female-03",
+    "ancestry": "Half-Elf",
+    "gender": "Female",
+    "name": "Reflective",
+    "description": "an older adult female Half-Elf adventurer with warm brown skin, cropped grey hair, subtly pointed ears; a thoughtful gentle expression looking slightly off-camera; wearing a navy travelling coat with modest bronze trim",
+    "file": "half-elf-female-03.webp"
+  },
+  {
+    "id": "half-elf-female-04",
+    "ancestry": "Half-Elf",
+    "gender": "Female",
+    "name": "Steadfast",
+    "description": "an adult in their thirties female Half-Elf adventurer with deep brown skin, black braids, subtly pointed ears; a stern battle-worn expression with alert eyes; wearing a practical teal travelling coat",
+    "file": "half-elf-female-04.webp"
+  },
+  {
+    "id": "half-elf-female-05",
+    "ancestry": "Half-Elf",
+    "gender": "Female",
+    "name": "Bright",
+    "description": "an older seasoned adult female Half-Elf adventurer with fair skin, freckles, red curls, subtly pointed ears; an open warm smile and bright engaged eyes; wearing a burgundy cloak and weathered leather",
+    "file": "half-elf-female-05.webp"
+  },
+  {
+    "id": "half-orc-male-02",
+    "ancestry": "Half-Orc",
+    "gender": "Male",
+    "name": "Resolute",
+    "description": "a middle-aged adult male Half-Orc adventurer with olive-green skin, small lower tusks, short black curls; a focused determined gaze with a slightly raised chin; wearing a burgundy cloak and weathered leather",
+    "file": "half-orc-male-02.webp"
+  },
+  {
+    "id": "half-orc-male-03",
+    "ancestry": "Half-Orc",
+    "gender": "Male",
+    "name": "Wry",
+    "description": "an older adult male Half-Orc adventurer with deep green skin, small lower tusks, shaved head; a playful lopsided grin and one raised eyebrow; wearing a charcoal embroidered tunic",
+    "file": "half-orc-male-03.webp"
+  },
+  {
+    "id": "half-orc-male-04",
+    "ancestry": "Half-Orc",
+    "gender": "Male",
+    "name": "Reflective",
+    "description": "an adult in their thirties male Half-Orc adventurer with sage-green skin, small lower tusks, black ponytail; a thoughtful gentle expression looking slightly off-camera; wearing a forest-green mantle and simple metal clasp",
+    "file": "half-orc-male-04.webp"
+  },
+  {
+    "id": "half-orc-male-05",
+    "ancestry": "Half-Orc",
+    "gender": "Male",
+    "name": "Steadfast",
+    "description": "an older seasoned adult male Half-Orc adventurer with grey skin, small lower tusks, silver locs; a stern battle-worn expression with alert eyes; wearing a navy travelling coat with modest bronze trim",
+    "file": "half-orc-male-05.webp"
+  },
+  {
+    "id": "half-orc-female-02",
+    "ancestry": "Half-Orc",
+    "gender": "Female",
+    "name": "Wry",
+    "description": "a middle-aged adult female Half-Orc adventurer with sage-green skin, small lower tusks, black ponytail; a playful lopsided grin and one raised eyebrow; wearing a forest-green mantle and simple metal clasp",
+    "file": "half-orc-female-02.webp"
+  },
+  {
+    "id": "half-orc-female-03",
+    "ancestry": "Half-Orc",
+    "gender": "Female",
+    "name": "Reflective",
+    "description": "an older adult female Half-Orc adventurer with grey skin, small lower tusks, silver locs; a thoughtful gentle expression looking slightly off-camera; wearing a navy travelling coat with modest bronze trim",
+    "file": "half-orc-female-03.webp"
+  },
+  {
+    "id": "half-orc-female-04",
+    "ancestry": "Half-Orc",
+    "gender": "Female",
+    "name": "Steadfast",
+    "description": "an adult in their thirties female Half-Orc adventurer with grey-green skin, small lower tusks, white braids; a stern battle-worn expression with alert eyes; wearing a practical teal travelling coat",
+    "file": "half-orc-female-04.webp"
+  },
+  {
+    "id": "half-orc-female-05",
+    "ancestry": "Half-Orc",
+    "gender": "Female",
+    "name": "Bright",
+    "description": "an older seasoned adult female Half-Orc adventurer with olive-green skin, small lower tusks, short black curls; an open warm smile and bright engaged eyes; wearing a burgundy cloak and weathered leather",
+    "file": "half-orc-female-05.webp"
+  },
+  {
+    "id": "halfling-male-02",
+    "ancestry": "Halfling",
+    "gender": "Male",
+    "name": "Resolute",
+    "description": "a middle-aged adult male Halfling adventurer with fair freckled skin, wavy red hair, round cheeks; a focused determined gaze with a slightly raised chin; wearing a burgundy cloak and weathered leather",
+    "file": "halfling-male-02.webp"
+  },
+  {
+    "id": "halfling-male-03",
+    "ancestry": "Halfling",
+    "gender": "Male",
+    "name": "Wry",
+    "description": "an older adult male Halfling adventurer with olive skin, cropped white curls, expressive eyebrows; a playful lopsided grin and one raised eyebrow; wearing a charcoal embroidered tunic",
+    "file": "halfling-male-03.webp"
+  },
+  {
+    "id": "halfling-male-04",
+    "ancestry": "Halfling",
+    "gender": "Male",
+    "name": "Reflective",
+    "description": "an adult in their thirties male Halfling adventurer with golden-brown skin, long dark braids, round face; a thoughtful gentle expression looking slightly off-camera; wearing a forest-green mantle and simple metal clasp",
+    "file": "halfling-male-04.webp"
+  },
+  {
+    "id": "halfling-male-05",
+    "ancestry": "Halfling",
+    "gender": "Male",
+    "name": "Steadfast",
+    "description": "an older seasoned adult male Halfling adventurer with tan skin, tousled chestnut curls, broad smile lines; a stern battle-worn expression with alert eyes; wearing a navy travelling coat with modest bronze trim",
+    "file": "halfling-male-05.webp"
+  },
+  {
+    "id": "halfling-female-02",
+    "ancestry": "Halfling",
+    "gender": "Female",
+    "name": "Wry",
+    "description": "a middle-aged adult female Halfling adventurer with golden-brown skin, long dark braids, round face; a playful lopsided grin and one raised eyebrow; wearing a forest-green mantle and simple metal clasp",
+    "file": "halfling-female-02.webp"
+  },
+  {
+    "id": "halfling-female-03",
+    "ancestry": "Halfling",
+    "gender": "Female",
+    "name": "Reflective",
+    "description": "an older adult female Halfling adventurer with tan skin, tousled chestnut curls, broad smile lines; a thoughtful gentle expression looking slightly off-camera; wearing a navy travelling coat with modest bronze trim",
+    "file": "halfling-female-03.webp"
+  },
+  {
+    "id": "halfling-female-04",
+    "ancestry": "Halfling",
+    "gender": "Female",
+    "name": "Steadfast",
+    "description": "an adult in their thirties female Halfling adventurer with deep brown skin, short black curls, round face; a stern battle-worn expression with alert eyes; wearing a practical teal travelling coat",
+    "file": "halfling-female-04.webp"
+  },
+  {
+    "id": "halfling-female-05",
+    "ancestry": "Halfling",
+    "gender": "Female",
+    "name": "Bright",
+    "description": "an older seasoned adult female Halfling adventurer with fair freckled skin, wavy red hair, round cheeks; an open warm smile and bright engaged eyes; wearing a burgundy cloak and weathered leather",
+    "file": "halfling-female-05.webp"
+  },
+  {
+    "id": "human-male-02",
+    "ancestry": "Human",
+    "gender": "Male",
+    "name": "Resolute",
+    "description": "a middle-aged adult male Human adventurer with fair skin, freckles, red curls, green eyes; a focused determined gaze with a slightly raised chin; wearing a burgundy cloak and weathered leather",
+    "file": "human-male-02.webp"
+  },
+  {
+    "id": "human-male-03",
+    "ancestry": "Human",
+    "gender": "Male",
+    "name": "Wry",
+    "description": "a middle-aged adult male Human adventurer with deep brown skin, a broad nose, short natural black curls and a neatly trimmed salt-and-pepper beard; a playful lopsided grin and one raised eyebrow; wearing a forest-green mantle and simple metal clasp",
+    "file": "human-male-03.webp"
+  },
+  {
+    "id": "human-male-04",
+    "ancestry": "Human",
+    "gender": "Male",
+    "name": "Reflective",
+    "description": "an adult in their thirties male Human adventurer with South Asian features, brown skin, thick black wavy hair; a thoughtful gentle expression looking slightly off-camera; wearing a forest-green mantle and simple metal clasp",
+    "file": "human-male-04.webp"
+  },
+  {
+    "id": "human-male-05",
+    "ancestry": "Human",
+    "gender": "Male",
+    "name": "Steadfast",
+    "description": "an older seasoned adult male Human adventurer with olive skin, short grey hair, weathered facial lines; a stern battle-worn expression with alert eyes; wearing a navy travelling coat with modest bronze trim",
+    "file": "human-male-05.webp"
+  },
+  {
+    "id": "human-female-03",
+    "ancestry": "Human",
+    "gender": "Female",
+    "name": "Reflective",
+    "description": "an older adult female Human adventurer with olive skin, short grey hair, weathered facial lines; a thoughtful gentle expression looking slightly off-camera; wearing a navy travelling coat with modest bronze trim",
+    "file": "human-female-03.webp"
+  },
+  {
+    "id": "human-female-04",
+    "ancestry": "Human",
+    "gender": "Female",
+    "name": "Steadfast",
+    "description": "an adult in their thirties female Human adventurer with deep brown skin, short silver curls, broad nose; a stern battle-worn expression with alert eyes; wearing a practical teal travelling coat",
+    "file": "human-female-04.webp"
+  },
+  {
+    "id": "human-female-05",
+    "ancestry": "Human",
+    "gender": "Female",
+    "name": "Bright",
+    "description": "an older seasoned adult female Human adventurer with fair skin, freckles, red curls, green eyes; an open warm smile and bright engaged eyes; wearing a burgundy cloak and weathered leather",
+    "file": "human-female-05.webp"
+  },
+  {
+    "id": "tiefling-male-01",
+    "ancestry": "Tiefling",
+    "gender": "Male",
+    "name": "Bright",
+    "description": "a young adult male Tiefling adventurer with deep blue skin, swept ivory horns, silver hair; an open warm smile and bright engaged eyes; wearing a practical teal travelling coat",
+    "file": "tiefling-male-01.webp"
+  },
+  {
+    "id": "tiefling-male-02",
+    "ancestry": "Tiefling",
+    "gender": "Male",
+    "name": "Resolute",
+    "description": "a middle-aged adult male Tiefling adventurer with copper-red skin, curled black horns, dark braids; a focused determined gaze with a slightly raised chin; wearing a burgundy cloak and weathered leather",
+    "file": "tiefling-male-02.webp"
+  },
+  {
+    "id": "tiefling-male-03",
+    "ancestry": "Tiefling",
+    "gender": "Male",
+    "name": "Wry",
+    "description": "an older adult male Tiefling adventurer with violet skin, short dark horns, white curls; a playful lopsided grin and one raised eyebrow; wearing a charcoal embroidered tunic",
+    "file": "tiefling-male-03.webp"
+  },
+  {
+    "id": "tiefling-male-04",
+    "ancestry": "Tiefling",
+    "gender": "Male",
+    "name": "Reflective",
+    "description": "an adult in their thirties male Tiefling adventurer with charcoal skin, gold eyes, long pale horns, black locs; a thoughtful gentle expression looking slightly off-camera; wearing a forest-green mantle and simple metal clasp",
+    "file": "tiefling-male-04.webp"
+  },
+  {
+    "id": "tiefling-male-05",
+    "ancestry": "Tiefling",
+    "gender": "Male",
+    "name": "Steadfast",
+    "description": "an older seasoned adult male Tiefling adventurer with rose-grey skin, amber eyes, ridged horns, cropped silver hair; a stern battle-worn expression with alert eyes; wearing a navy travelling coat with modest bronze trim",
+    "file": "tiefling-male-05.webp"
+  },
+  {
+    "id": "tiefling-female-02",
+    "ancestry": "Tiefling",
+    "gender": "Female",
+    "name": "Wry",
+    "description": "a middle-aged adult female Tiefling adventurer with charcoal skin, gold eyes, long pale horns, black locs; a playful lopsided grin and one raised eyebrow; wearing a forest-green mantle and simple metal clasp",
+    "file": "tiefling-female-02.webp"
+  },
+  {
+    "id": "tiefling-female-03",
+    "ancestry": "Tiefling",
+    "gender": "Female",
+    "name": "Reflective",
+    "description": "an older adult female Tiefling adventurer with rose-grey skin, amber eyes, ridged horns, cropped silver hair; a thoughtful gentle expression looking slightly off-camera; wearing a navy travelling coat with modest bronze trim",
+    "file": "tiefling-female-03.webp"
+  },
+  {
+    "id": "tiefling-female-04",
+    "ancestry": "Tiefling",
+    "gender": "Female",
+    "name": "Steadfast",
+    "description": "an adult in their thirties female Tiefling adventurer with deep blue skin, swept ivory horns, silver hair; a stern battle-worn expression with alert eyes; wearing a practical teal travelling coat",
+    "file": "tiefling-female-04.webp"
+  },
+  {
+    "id": "tiefling-female-05",
+    "ancestry": "Tiefling",
+    "gender": "Female",
+    "name": "Bright",
+    "description": "an older seasoned adult female Tiefling adventurer with copper-red skin, curled black horns, dark braids; an open warm smile and bright engaged eyes; wearing a burgundy cloak and weathered leather",
+    "file": "tiefling-female-05.webp"
+  },
+  {
+    "id": "goliath-male-02",
+    "ancestry": "Goliath",
+    "gender": "Male",
+    "name": "Resolute",
+    "description": "a middle-aged adult male Goliath adventurer with pale grey-blue skin, dark stone markings, black braids; a focused determined gaze with a slightly raised chin; wearing a burgundy cloak and weathered leather",
+    "file": "goliath-male-02.webp"
+  },
+  {
+    "id": "goliath-male-03",
+    "ancestry": "Goliath",
+    "gender": "Male",
+    "name": "Wry",
+    "description": "an older adult male Goliath adventurer with granite-grey skin, subtle geometric markings, white hair; a playful lopsided grin and one raised eyebrow; wearing a charcoal embroidered tunic",
+    "file": "goliath-male-03.webp"
+  },
+  {
+    "id": "goliath-male-04",
+    "ancestry": "Goliath",
+    "gender": "Male",
+    "name": "Reflective",
+    "description": "an adult in their thirties male Goliath adventurer with warm grey skin, dark stone markings, shaved sides; a thoughtful gentle expression looking slightly off-camera; wearing a forest-green mantle and simple metal clasp",
+    "file": "goliath-male-04.webp"
+  },
+  {
+    "id": "goliath-male-05",
+    "ancestry": "Goliath",
+    "gender": "Male",
+    "name": "Steadfast",
+    "description": "an older seasoned adult male Goliath adventurer with dark stone-grey skin, subtle markings, silver ponytail; a stern battle-worn expression with alert eyes; wearing a navy travelling coat with modest bronze trim",
+    "file": "goliath-male-05.webp"
+  },
+  {
+    "id": "goliath-female-02",
+    "ancestry": "Goliath",
+    "gender": "Female",
+    "name": "Wry",
+    "description": "a middle-aged adult female Goliath adventurer with warm grey skin, dark stone markings, shaved sides; a playful lopsided grin and one raised eyebrow; wearing a forest-green mantle and simple metal clasp",
+    "file": "goliath-female-02.webp"
+  },
+  {
+    "id": "goliath-female-03",
+    "ancestry": "Goliath",
+    "gender": "Female",
+    "name": "Reflective",
+    "description": "an older adult female Goliath adventurer with dark stone-grey skin, subtle markings, silver ponytail; a thoughtful gentle expression looking slightly off-camera; wearing a navy travelling coat with modest bronze trim",
+    "file": "goliath-female-03.webp"
+  },
+  {
+    "id": "goliath-female-04",
+    "ancestry": "Goliath",
+    "gender": "Female",
+    "name": "Steadfast",
+    "description": "an adult in their thirties female Goliath adventurer with slate-grey skin, subtle stone markings, shaved head; a stern battle-worn expression with alert eyes; wearing a practical teal travelling coat",
+    "file": "goliath-female-04.webp"
+  },
+  {
+    "id": "goliath-female-05",
+    "ancestry": "Goliath",
+    "gender": "Female",
+    "name": "Bright",
+    "description": "an older seasoned adult female Goliath adventurer with pale grey-blue skin, dark stone markings, black braids; an open warm smile and bright engaged eyes; wearing a burgundy cloak and weathered leather",
+    "file": "goliath-female-05.webp"
+  },
+  {
+    "id": "orc-male-02",
+    "ancestry": "Orc",
+    "gender": "Male",
+    "name": "Resolute",
+    "description": "a middle-aged adult male Orc adventurer with grey-green skin, broad nose, strong tusks, black curls; a focused determined gaze with a slightly raised chin; wearing a burgundy cloak and weathered leather",
+    "file": "orc-male-02.webp"
+  },
+  {
+    "id": "orc-male-03",
+    "ancestry": "Orc",
+    "gender": "Male",
+    "name": "Wry",
+    "description": "an older adult male Orc adventurer with olive-green skin, strong tusks, shaved head; a playful lopsided grin and one raised eyebrow; wearing a charcoal embroidered tunic",
+    "file": "orc-male-03.webp"
+  },
+  {
+    "id": "orc-male-04",
+    "ancestry": "Orc",
+    "gender": "Male",
+    "name": "Reflective",
+    "description": "an adult in their thirties male Orc adventurer with jade-green skin, strong lower tusks, silver locs; a thoughtful gentle expression looking slightly off-camera; wearing a forest-green mantle and simple metal clasp",
+    "file": "orc-male-04.webp"
+  },
+  {
+    "id": "orc-male-05",
+    "ancestry": "Orc",
+    "gender": "Male",
+    "name": "Steadfast",
+    "description": "an older seasoned adult male Orc adventurer with deep green skin, strong tusks, dark ponytail; a stern battle-worn expression with alert eyes; wearing a navy travelling coat with modest bronze trim",
+    "file": "orc-male-05.webp"
+  },
+  {
+    "id": "orc-female-02",
+    "ancestry": "Orc",
+    "gender": "Female",
+    "name": "Wry",
+    "description": "a middle-aged adult female Orc adventurer with jade-green skin, strong lower tusks, silver locs; a playful lopsided grin and one raised eyebrow; wearing a forest-green mantle and simple metal clasp",
+    "file": "orc-female-02.webp"
+  },
+  {
+    "id": "orc-female-03",
+    "ancestry": "Orc",
+    "gender": "Female",
+    "name": "Reflective",
+    "description": "an older adult female Orc adventurer with deep green skin, strong tusks, dark ponytail; a thoughtful gentle expression looking slightly off-camera; wearing a navy travelling coat with modest bronze trim",
+    "file": "orc-female-03.webp"
+  },
+  {
+    "id": "orc-female-04",
+    "ancestry": "Orc",
+    "gender": "Female",
+    "name": "Steadfast",
+    "description": "an adult in their thirties female Orc adventurer with forest-green skin, strong lower tusks, white braids; a stern battle-worn expression with alert eyes; wearing a practical teal travelling coat",
+    "file": "orc-female-04.webp"
+  },
+  {
+    "id": "orc-female-05",
+    "ancestry": "Orc",
+    "gender": "Female",
+    "name": "Bright",
+    "description": "an older seasoned adult female Orc adventurer with grey-green skin, broad nose, strong tusks, black curls; an open warm smile and bright engaged eyes; wearing a burgundy cloak and weathered leather",
+    "file": "orc-female-05.webp"
+  }
+]

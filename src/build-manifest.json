@@ -1,0 +1,133 @@
+{
+  "schema": 1,
+  "version": "61",
+  "placeholders": {
+    "__STYLE__": [
+      "src/styles/living.css"
+    ],
+    "__STUDIOCSS__": [
+      "src/styles/living_studio.css"
+    ],
+    "__REFERENCECSS__": [
+      "src/styles/reference_fidelity.css"
+    ],
+    "__MODERNCSS__": [
+      "src/styles/modern_studio.css"
+    ],
+    "__FLUIDCSS__": [
+      "src/styles/fluid_header.css"
+    ],
+    "__CONSOLIDATEDCSS__": [
+      "src/styles/consolidated_workspace.css"
+    ],
+    "__SMARTCSS__": [
+      "src/styles/smart_overview.css"
+    ],
+    "__COMPANIONCSS__": [
+      "src/styles/companion_layout.css"
+    ],
+    "__POLISHCSS__": [
+      "src/styles/professional_layout.css"
+    ],
+    "__DMDESIGNCSS__": [
+      "src/styles/dm_design.css"
+    ],
+    "__CLOUDCSS__": [
+      "src/styles/cloud.css"
+    ],
+    "__USERLAYOUTCSS__": [
+      "src/styles/user_layout_baseline_20261015.css"
+    ],
+    "__DEVICECSS__": [
+      "src/styles/device_layout.css"
+    ],
+    "__DASHBOARDCSS__": [
+      "src/styles/campaign_dashboard.css"
+    ],
+    "__INTERFACESYSTEMCSS__": [
+      "src/styles/interface_system.css"
+    ],
+    "__PLAYERWORKSPACECSS__": [
+      "src/styles/player_workspace.css"
+    ],
+    "__MODERNEXPERIENCECSS__": [
+      "src/styles/modern_experience.css"
+    ],
+    "__LAUNCHHUBCSS__": [
+      "src/styles/launch_experience.css"
+    ],
+    "__QUICKBUILDCSS__": [
+      "src/styles/quickbuild.css"
+    ],
+    "__ABILITYROLLSCSS__": [
+      "src/styles/ability_rolls.css"
+    ],
+    "__PORTRAITGALLERYCSS__": [
+      "src/styles/portrait_gallery.css"
+    ],
+    "__DMEXPERIENCE57CSS__": [
+      "src/styles/dm_experience_v57.css"
+    ],
+    "__CAMPAIGNBUILDERCSS__": [
+      "src/styles/campaign_builder.css"
+    ],
+    "__FINALPRESENTATION57CSS__": [
+      "src/styles/final_presentation_v57.css"
+    ],
+    "__CHARACTERPANEL58CSS__": [
+      "src/styles/character_panel_v58.css"
+    ],
+    "__SMARTPLAYCSS__": [
+      "src/styles/smart_play.css"
+    ],
+    "__CLOUDCORE__": [
+      "src/backend_config.js",
+      "cloud_core.js"
+    ],
+    "__ENGINE__": [
+      "src/companion_engine.js"
+    ],
+    "__GUIDES__": [
+      "src/rules_guides.js"
+    ],
+    "__DMWORKSPACE__": [
+      "src/dm_workspace.js"
+    ],
+    "__DMCORE__": [
+      "src/dm_core.js"
+    ],
+    "__CAMPAIGNS__": [
+      "src/campaign_library.js"
+    ],
+    "__ACTIONS__": [
+      "src/living_actions.js",
+      "src/visual_dice.js"
+    ],
+    "__IMPORT__": [
+      "src/living_import.js"
+    ],
+    "__CORE__": [
+      "src/living_core.js"
+    ],
+    "__PWA__": [
+      "src/living_pwa.js"
+    ]
+  },
+  "features": [
+    "src/features/modern_experience.js",
+    "src/features/launch_experience.js",
+    "src/features/builder_cloud.js",
+    "src/features/ability_rolls.js",
+    "src/features/quickbuild.js",
+    "src/features/portrait_gallery.js",
+    "src/features/build57_state_guards.js",
+    "src/features/dm_experience_v57.js",
+    "src/features/campaign_builder.js",
+    "src/features/final_presentation_v57.js",
+    "src/features/character_panel_v58.js",
+    "src/features/update_checker.js",
+    "src/features/smart_files.js",
+    "src/features/smart_play.js",
+    "src/features/public_backend.js"
+  ]
+}

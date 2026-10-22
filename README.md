@@ -2,7 +2,7 @@
   <img src="legendfolio-favicon-v2.svg" width="64" height="64" alt="Legendfolio open-book emblem">
 </p>
 
-# Legendfolio: TTRPG Studio
+# Legendfolio Open Studio
 
 **Your character. Your campaign. Your next adventure.**
 
@@ -10,13 +10,14 @@ Legendfolio is a local-first tabletop roleplaying companion for players and Dung
 
 It began as a personal character tracker and is growing into a shared play environment. The aim is straightforward: help players understand their options, reduce bookkeeping and give DMs practical control over their campaigns.
 
-**Current application: Build 60 · SMART PLAY**  
+**Current application: Build 61 · Public Preview**  
 **Status: actively developed public preview**  
+**Code: AGPL-3.0-only · Portraits: CC BY 4.0 where applicable**  
 **Rules foundations: D&D 5e (2014) and revised 2024 rules, with custom proposals**
 
 [Open Legendfolio](https://legendfolio.vercel.app/) · [Run locally](#run-locally) · [Set up your own cloud deployment](docs/SELF_HOSTING.md) · [Roadmap](docs/ROADMAP.md)
 
-> WORLD, Worldcraft Studio, playable maps, tokens, fog of war, automatic vision and Discord Activities are planned. They are not included in Build 60.
+> WORLD, Worldcraft Studio, playable maps, tokens, fog of war, automatic vision and Discord Activities are planned. They are not included in Build 61.
 
 ## Contents
 
@@ -125,7 +126,7 @@ After the application and its bundled assets are cached, supported local workflo
 
 The official hosted app and a self-hosted instance can use the same software while operating against different databases. Accounts, invitations and campaigns belong to the backend serving that instance; they are not automatically shared between installations.
 
-Forks should configure their own Supabase project before enabling connected use. Do not treat an upstream deployment's configuration as a shared development backend. See the [self-hosting guide](docs/SELF_HOSTING.md).
+The public build disables online features by default and includes no upstream backend configuration. Hosts configure their own compatible Supabase project before enabling connected use; players then sign in normally. See the [self-hosting guide](docs/SELF_HOSTING.md).
 
 The project vision keeps core gameplay free of subscription feature gates. Operating a hosted instance can still incur hosting, database, email and storage costs.
 
@@ -207,20 +208,22 @@ The current release is a static web application with an optional Supabase backen
 | Supabase project | Not needed in local mode | Required for connected features |
 | HTTPS hosting | Not needed on localhost | Required for the deployed application |
 
-The static build command is:
+The source build command is:
 
 ```sh
 node scripts/build.mjs
 ```
 
-It validates browser configuration and writes deployable files to `dist/`. It does not provision Supabase, apply SQL migrations or start a server.
+It assembles the included source, validates optional backend configuration, generates matching security hashes/network policy and writes deployable files to `dist/`. It also updates the prebuilt root application and creates a downloadable corresponding-source archive. It does not provision Supabase, apply SQL migrations or start a server. No npm dependency installation is required for this Node-only build.
+
+Run `npm start` after building to serve `dist/` locally. The Python launcher can serve the prebuilt root application without Node.
 
 For a fresh connected instance:
 
 1. Create your own Supabase project.
 2. Apply the supplied migrations **001 through 018, in filename order, once each**.
 3. Configure your public project URL/key and your deployed site address.
-4. Configure authentication redirects and the application's allowed network origin.
+4. Configure authentication redirects. The build derives its allowed backend network origin from your configuration.
 5. Build/deploy, then test separate DM and player accounts.
 
 Follow the [complete self-hosting guide](docs/SELF_HOSTING.md) for exact configuration, CSP, redirects, migration order and acceptance checks. The guide takes precedence over older release-specific deployment notes that refer to the original maintainer's installation.
@@ -234,10 +237,11 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) before a substantial change. Discuss lar
 ### Current deployment layout
 
 ```text
-index.html                 Application, including embedded interface code/styles
+src/                       Preferred editable interface/source/data
+index.html                 Generated, prebuilt local application
 cloud_core.js              Cloud data/configuration helpers used by the build
 cloud-config.json          Browser-readable backend configuration
-scripts/build.mjs          Validated static deployment build
+scripts/build.mjs          Source assembly, config validation, CSP and source ZIP
 supabase/migrations/       Ordered database changes
 vendor/                    Bundled libraries and their notices
 rules/                     Bundled SRD reference PDFs
@@ -248,9 +252,9 @@ release.json               Build identity used by the update checker
 docs/                      Public setup, roadmap and release guidance
 ```
 
-The supplied static build copies the existing application; it does not regenerate the embedded interface from a modular frontend source tree. Release/deployment archives do not necessarily contain the full maintainer test/source-generation workspace. A complete contributor-facing source-generation workflow is a public-release preparation item, not something this README claims is already shipped.
+The preferred editable source is included in `src/`: the HTML template, styles, core modules, feature modules and blank seed/rule data. `src/build-manifest.json` records assembly order. Rebuild with `npm run build`; security hashes, release identity, service-worker identity and a corresponding-source ZIP are generated together. No private character PDF, personal backdrop or external maintainer workspace is required.
 
-Embedded script changes also require matching Content Security Policy hashes and a consistent release/service-worker identity. Avoid publishing a manually edited HTML file with stale security headers or cache metadata.
+Run `npm test` for the included configuration, build, archive, cloud-helper and gameplay-core tests. These local tests do not replace two-account acceptance against your own Supabase deployment. The full historical QA workspace is not included wholesale; its review boundaries are described in the release report.
 
 The public roadmap and public-release preparation steps are in [docs/ROADMAP.md](docs/ROADMAP.md) and [docs/PUBLIC_RELEASE.md](docs/PUBLIC_RELEASE.md).
 
@@ -281,13 +285,9 @@ Self-hosters operate their own instance and are responsible for its access setti
 
 ## Licensing, attribution and artwork
 
-**Project software licence: not yet adopted in this release.** AGPL-3.0 has been recommended, but this README does not grant that licence or declare its adoption. Until an actual project `LICENSE` is added, do not assume unrestricted reuse rights. Public GitHub visibility and open-source licensing are separate decisions. [GitHub licensing guidance](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
+Original application code is licensed under **GNU AGPL version 3.0 only**. See [LICENSE](LICENSE). Modified hosted versions must offer corresponding source to their interacting users under the licence's terms. Each build includes a source download linked from About. AGPL permits commercial use and does not imply every hosted service is free of operating costs.
 
-The intended project software licence must be distinguished from third-party libraries, SRD rules content, branding, bundled artwork and user uploads. Each retains its applicable terms. Keep bundled dependency notices, including those in `vendor/`.
-
-The bundled `rules/srd-2014.pdf` and `rules/srd-2024.pdf` are the SRD reference foundations described by the release. Review and preserve each document's Creative Commons attribution and licence notice. Wizards' SRD permission does not automatically extend to all D&D Beyond pages, commercial rulebooks, adventures, setting text or official artwork. [Official SRD information](https://www.dndbeyond.com/srd)
-
-Bundled portrait provenance and distribution terms must be documented before assigning artwork a public licence. User uploads remain separate from the application's source licence; upload only material you have permission to use and share. Campaign-specific tools are not a licence to redistribute campaign books.
+Bundled portraits are available under **CC BY 4.0 to the extent applicable rights are held**, with AI-generation/preparation provenance. SRD content and third-party libraries retain their own terms. User uploads are separate. Read [LICENSES.md](LICENSES.md) for exact SRD attribution, library notices, portrait credit and qualifications, and [BRANDING.md](BRANDING.md) for the name/logo policy. Campaign-specific compatibility tools do not grant redistribution rights to commercial campaign books or official artwork.
 
 Legendfolio is an independent project. It is not an official Wizards of the Coast, D&D Beyond, Discord, Supabase or Vercel product. Referenced names and marks belong to their respective owners.
 

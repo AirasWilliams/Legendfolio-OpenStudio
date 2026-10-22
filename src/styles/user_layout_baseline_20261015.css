@@ -1,0 +1,194 @@
+
+/* Legendfolio responsive layout final overrides */
+/* Legendfolio mobile/tablet consolidation candidate: append at end of existing <style> */
+@media (max-width: 1100px) {
+  .studio-split { grid-template-columns: minmax(0, 1fr); }
+  .active-workspace-shell { position: static; max-height: none; overflow: visible; }
+  .active-workspace-shell #active-workspace { max-height: none; overflow: visible; }
+  .dm-workbench-grid { grid-template-columns: minmax(0, 1fr); }
+  .dm-navigation-rail { display: none; }
+  .dm-mobile-section { display: flex; }
+}
+@media (max-width: 800px) {
+  .hero { grid-template-columns: minmax(0, 100px) minmax(0, 1fr); grid-template-areas: 'portrait identity' 'scores scores'; gap: 12px; padding: 14px; }
+  .hero-art { grid-area: portrait; width: 100%; height: 156px; }
+  .hero-identity { grid-area: identity; min-width: 0; }
+  .header-scores { grid-area: scores; min-width: 0; margin: 0; }
+  .header-score-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .header-vitals { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .studio-tabs { display: flex !important; flex-wrap: nowrap; overflow-x: auto; scroll-snap-type: x proximity; scrollbar-width: thin; gap: 8px; }
+  .studio-tabs button { flex: 0 0 clamp(118px, 32vw, 150px); min-width: 0; min-height: 52px; padding: 9px 10px; white-space: normal; line-height: 1.3; font-size: 12px; scroll-snap-align: start; }
+  .persistent-board, .persistent-grid { grid-template-columns: minmax(0, 1fr); }
+  .intent-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .intent-grid button { min-height: 44px; padding: 9px; font-size: 12px; }
+  .active-workspace-shell .record-form, body[data-experience=Veteran] .active-workspace-shell .record-form { grid-template-columns: minmax(0, 1fr); }
+  .toolbar-actions .button { min-height: 44px; font-size: 12px; }
+  .table-wrapper { overflow-x: auto; }
+}
+@media (max-width: 580px) {
+  .toolbar { grid-template-columns: minmax(0, 1fr); grid-template-areas: 'brand' 'campaigns' 'mode' 'appearance' 'preferences' 'actions'; }
+  .hero { grid-template-columns: 90px minmax(0, 1fr); }
+  .hero h1 { font-size: clamp(22px, 6vw, 28px); }
+  .header-score strong { font-size: 20px; }
+  .fields, .active-workspace-shell .fields { grid-template-columns: minmax(0, 1fr); }
+}
+
+
+/* Legendfolio landscape phone/tablet fix - 2026-10 */
+/* Legendfolio: compact landscape phone and tablet layout
+ * Applied after the previous responsive overrides; no gameplay JS changes.
+ * Keep the entire toolbar accessible by horizontal scrolling instead of hiding actions.
+ */
+@media (orientation: landscape) and (min-width: 581px) and (max-width: 1400px) {
+  .workspace { min-width: 0; padding-inline: clamp(10px, 1.5vw, 20px); }
+  .toolbar,
+  body[data-app-role="DM"] .toolbar {
+    display: grid;
+    grid-template-columns: minmax(170px, 1fr) auto auto;
+    grid-template-areas: "brand campaigns mode" "appearance preferences preferences" "actions actions actions";
+    gap: 7px 10px;
+    align-items: center;
+    margin: 0 0 9px;
+    padding: 8px 0 9px;
+    min-height: 0;
+  }
+  .header-brand { grid-area: brand; min-width: 0; }
+  .header-brand strong { font-size: 14px; }
+  .header-brand .save-state, .header-brand .cloud-state { font-size: 10px; line-height: 1.2; }
+  .toolbar #open-campaigns { grid-area: campaigns; justify-self: end; min-width: 0; max-width: 170px; }
+  .toolbar #switch-mode { grid-area: mode; justify-self: end; }
+  .toolbar > .hero-theme { grid-area: appearance; justify-self: start; align-self: center; margin: 0; min-width: 0; }
+  .toolbar > .hero-theme .college-select { height: 34px; min-height: 34px; max-width: 145px; padding: 6px 8px; }
+  .toolbar > .hero-theme .button { min-height: 34px; padding: 6px 8px; }
+  .companion-controls { grid-area: preferences; display: flex; flex-wrap: nowrap; align-items: center; justify-content: flex-end; justify-self: end; align-self: center; gap: 6px; min-width: 0; margin: 0; }
+  .companion-controls label { font-size: 10px; }
+  .companion-controls select { min-width: 0; max-width: 132px; height: 34px; padding: 6px 8px; }
+  .companion-controls #open-rules { min-height: 34px; padding: 6px 9px; }
+  .toolbar-actions,
+  body[data-app-role="DM"] .toolbar-actions {
+    grid-area: actions;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 7px;
+    min-width: 0;
+    width: 100%;
+    padding: 7px 0 3px;
+    margin: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-inline: contain;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+  }
+  .toolbar-actions > .button, .toolbar-actions .header-docs .button,
+  .toolbar-actions .record-menu summary {
+    flex: 0 0 auto;
+    min-height: 35px;
+    font-size: 11px;
+    padding: 7px 10px;
+    white-space: nowrap;
+  }
+  .toolbar-actions > #open-pdf { order: -3; }
+  .toolbar-actions > #save-character { order: -2; }
+  .toolbar-actions > #account-cloud { order: -1; }
+  .toolbar-actions .header-docs { order: 10; width: auto; max-width: none; margin: 0; padding: 0; border: 0; display: flex; flex: 0 0 auto; flex-wrap: nowrap; gap: 6px; }
+  .toolbar-actions .record-menu { flex: 0 0 auto; }
+  /* Record menu must escape the scrollable toolbar; otherwise its popup is clipped. */
+  .toolbar-actions .record-menu .tools {
+    position: fixed;
+    top: 72px;
+    right: 12px;
+    left: auto;
+    z-index: 200;
+    max-height: calc(100dvh - 84px);
+    overflow-y: auto;
+    min-width: 205px;
+  }
+  .hero {
+    display: grid;
+    grid-template-columns: 92px minmax(160px, .85fr) minmax(270px, 1.15fr);
+    grid-template-areas: "portrait identity scores";
+    min-height: 0;
+    padding: 10px 12px;
+    gap: 11px;
+    align-items: center;
+    margin-bottom: 9px;
+  }
+  .hero-art { grid-area: portrait; grid-column: auto; grid-row: auto; width: 100%; height: 122px; min-height: 0; position: relative; inset: auto; }
+  .hero-identity { grid-area: identity; grid-column: auto; grid-row: auto; min-width: 0; }
+  .hero-identity .kicker { font-size: 9px; margin-bottom: 4px; }
+  .hero h1 { font-size: clamp(20px, 2.5vw, 28px); margin: 3px 0 5px; }
+  .hero .subtitle { font-size: 11px; line-height: 1.35; }
+  .hero-meta { margin-top: 5px; gap: 4px; padding: 0; }
+  .hero-meta span { padding: 3px 5px; font-size: 10px; }
+  .hero-details { display: none; }
+  .header-scores { grid-area: scores; grid-column: auto; grid-row: auto; width: 100%; min-width: 0; margin: 0; }
+  .header-vitals { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 4px; margin: 0 0 4px; }
+  .header-vital { min-height: 44px; padding: 5px 7px; }
+  .header-vital small { font-size: 8px; line-height: 1.2; }
+  .header-vital strong, .header-vital.health strong { font-size: 14px; line-height: 1.2; }
+  .header-score-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 4px; }
+  .header-score { padding: 4px 2px; min-height: 43px; }
+  .header-score span { font-size: 8px; }
+  .header-score strong { font-size: 16px; line-height: 1.05; }
+  .header-score small { font-size: 9px; }
+  .header-proficiency { margin-top: 4px; font-size: 10px; }
+  .header-proficiency .button { min-height: 27px; padding: 4px 7px; font-size: 10px; }
+  .studio-tabs {
+    display: flex !important;
+    flex-wrap: nowrap;
+    gap: 6px;
+    min-width: 0;
+    margin-bottom: 9px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-inline: contain;
+    scrollbar-width: thin;
+    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
+  }
+  .studio-tabs button {
+    flex: 0 0 auto;
+    min-width: 114px;
+    min-height: 40px;
+    padding: 7px 10px;
+    font-size: 11px;
+    white-space: nowrap;
+    flex-direction: row;
+    scroll-snap-align: start;
+  }
+  .studio-split, .dm-workbench-grid { grid-template-columns: minmax(0, 1fr); }
+  .persistent-context, .persistent-board { min-width: 0; }
+  .active-workspace-shell, .active-workspace-shell #active-workspace { position: static; max-height: none; overflow: visible; }
+  .dm-navigation-rail { display: none; }
+  .dm-mobile-section { display: flex; }
+  .dm-campaign-bar { flex-wrap: wrap; }
+  .dm-workbench .dm-calendar { grid-template-columns: minmax(0, 1fr); }
+  .dm-context-column { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
+/* Short phones in landscape: no pinned workspace; scroll vertically to continue playing. */
+@media (orientation: landscape) and (max-height: 620px) and (min-width: 581px) and (max-width: 1100px) {
+  .hero { grid-template-columns: 76px minmax(150px, .85fr) minmax(255px, 1.15fr); gap: 8px; padding: 8px 10px; }
+  .hero-art { height: 104px; }
+  .hero h1 { font-size: 21px; }
+  .hero .kicker, .hero .subtitle { line-height: 1.2; }
+  .hero .hero-meta span { font-size: 9px; padding: 2px 4px; }
+  .header-score { min-height: 38px; }
+  .header-vital { min-height: 39px; }
+  .toolbar { margin-bottom: 6px; }
+  .studio-tabs { margin-bottom: 6px; }
+  .persistent-context { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .context-card { min-height: 0; }
+}
+/* Exception: small/older phones with a landscape width below 581px. */
+@media (orientation: landscape) and (max-height: 480px) and (max-width: 580px) {
+  .toolbar { padding-top: 7px; gap: 7px; }
+  .toolbar-actions { display:flex; flex-wrap:nowrap; overflow-x:auto; overscroll-behavior-inline:contain; }
+  .toolbar-actions > .button, .toolbar-actions .record-menu summary { flex: 0 0 auto; min-height: 38px; }
+  .toolbar-actions .header-docs { flex:0 0 auto; width:auto; }
+  .hero-art { height: 104px; }
+  .studio-tabs { margin-bottom: 8px; }
+}
+

@@ -1,0 +1,680 @@
+{
+  "schema": 1,
+  "creator": "Airas Williams / Legendfolio contributors",
+  "method": "AI-generated portrait artwork prepared for Legendfolio using OpenAI image generation, then cropped/resized for the bundled gallery.",
+  "license": "CC-BY-4.0 to the extent the licensor holds applicable rights; no exclusive copyright claim is made for otherwise unprotectable AI output.",
+  "records": [
+    {
+      "id": "dragonborn-amber",
+      "file": "dragonborn-amber.webp",
+      "ancestry": "Dragonborn",
+      "sha256": "a0c8d6febe92eb44f78d9dbe67e07917d1b60bd4cb1e25380dc0346456347f37"
+    },
+    {
+      "id": "dragonborn-ivory",
+      "file": "dragonborn-ivory.webp",
+      "ancestry": "Dragonborn",
+      "sha256": "2758de3d0164ef6fc13bea0ed864db2bc1e7b1dd2d14ba46a0e01e8293fa42f6"
+    },
+    {
+      "id": "dwarf-copper",
+      "file": "dwarf-copper.webp",
+      "ancestry": "Dwarf",
+      "sha256": "3c0281e6ddcc81fdd239b5458eef790e578224bbe95ca1350a8c013f17bca3a0"
+    },
+    {
+      "id": "dwarf-slate",
+      "file": "dwarf-slate.webp",
+      "ancestry": "Dwarf",
+      "sha256": "cda254db63caf0190132bf07da365e9da3adea17adeece92c60ae8c381542f0e"
+    },
+    {
+      "id": "elf-moon",
+      "file": "elf-moon.webp",
+      "ancestry": "Elf",
+      "sha256": "98fc60528210a3045b72f8bef4b7a0c6fed11044e5e3ffcbd8c3138538a58744"
+    },
+    {
+      "id": "elf-wood",
+      "file": "elf-wood.webp",
+      "ancestry": "Elf",
+      "sha256": "ca1de748b856e6ba37b842abb1190bd6e6ee5d4d7d328f057a3cdc43843d040d"
+    },
+    {
+      "id": "elf-dawn",
+      "file": "elf-dawn.webp",
+      "ancestry": "Elf",
+      "sha256": "cf20e09012c6fa51b0ff833ac66fb89555564ac08450d40a32f65fb62e132768"
+    },
+    {
+      "id": "gnome-lilac",
+      "file": "gnome-lilac.webp",
+      "ancestry": "Gnome",
+      "sha256": "a3d296aa4b289288979866eb7ad5a68f91a45888d0ecfe56c8017ddf0a9772ad"
+    },
+    {
+      "id": "gnome-ochre",
+      "file": "gnome-ochre.webp",
+      "ancestry": "Gnome",
+      "sha256": "c5d39863156d92bd4cf9f5bbaf43b67c8b1379c0d2541a4136e8439f81fada94"
+    },
+    {
+      "id": "half-elf-river",
+      "file": "half-elf-river.webp",
+      "ancestry": "Half-Elf",
+      "sha256": "b12e2a94bd4388b6d162b470d3ca2644d5f7f1ad8ca19619de565329941c6fbb"
+    },
+    {
+      "id": "half-elf-ash",
+      "file": "half-elf-ash.webp",
+      "ancestry": "Half-Elf",
+      "sha256": "1c75066b0a8bed75752ab10a82de6169a143f1838666c14d5af3462590005610"
+    },
+    {
+      "id": "half-orc-fern",
+      "file": "half-orc-fern.webp",
+      "ancestry": "Half-Orc",
+      "sha256": "6149b6b333734555c4625efad8ba56fd3ca16f84a14d698882ed8a1b93c18e6e"
+    },
+    {
+      "id": "half-orc-iron",
+      "file": "half-orc-iron.webp",
+      "ancestry": "Half-Orc",
+      "sha256": "2595a9a008dc3276e14e5e4859c9187e65917dc1b57e30a9b0c3ccafd2bb43a2"
+    },
+    {
+      "id": "halfling-rose",
+      "file": "halfling-rose.webp",
+      "ancestry": "Halfling",
+      "sha256": "dba8718610e780daa20bdf5a3fd467220c54b4aeb49ddba5fd4f7bead103938e"
+    },
+    {
+      "id": "halfling-moss",
+      "file": "halfling-moss.webp",
+      "ancestry": "Halfling",
+      "sha256": "fd77707d64d32f6fe6d874d0bdd34c47c167e8d679b9d583305ea00ac1f43b6f"
+    },
+    {
+      "id": "human-sun",
+      "file": "human-sun.webp",
+      "ancestry": "Human",
+      "sha256": "5d1b9222c6d1fb24c34fc8426286f70bfa52d5f41622c55e4048f0f40836dfbd"
+    },
+    {
+      "id": "human-storm",
+      "file": "human-storm.webp",
+      "ancestry": "Human",
+      "sha256": "80a4bee93d5222e566db9a083a139169f99a74a178a755547969b01228fe83b9"
+    },
+    {
+      "id": "human-winter",
+      "file": "human-winter.webp",
+      "ancestry": "Human",
+      "sha256": "128173e216577d46ab505dc1dc84bd75b458dd7dce97bbebd6cbdcbe5686a66f"
+    },
+    {
+      "id": "tiefling-ember",
+      "file": "tiefling-ember.webp",
+      "ancestry": "Tiefling",
+      "sha256": "216353e4992c7cbe0069e61c888ea1dd33b3329238f61795773c667bdc7c930e"
+    },
+    {
+      "id": "tiefling-dusk",
+      "file": "tiefling-dusk.webp",
+      "ancestry": "Tiefling",
+      "sha256": "ca97360e7b63a7f716fe8102c472bcea379edae69119c14316a4f1ce28140299"
+    },
+    {
+      "id": "goliath-granite",
+      "file": "goliath-granite.webp",
+      "ancestry": "Goliath",
+      "sha256": "9f692fc7622b9dbbbc4b31e63b3c620171b471de68869062895b190c0d501f69"
+    },
+    {
+      "id": "goliath-snow",
+      "file": "goliath-snow.webp",
+      "ancestry": "Goliath",
+      "sha256": "5c0025ea642c77814cfbcd76444cc49be2fcb64862879c861c50ce276a383ccc"
+    },
+    {
+      "id": "orc-jade",
+      "file": "orc-jade.webp",
+      "ancestry": "Orc",
+      "sha256": "cf6d1288c5f956919583a4e5dcfe856926d93ef5a5ddb314e3173982802fa124"
+    },
+    {
+      "id": "orc-basalt",
+      "file": "orc-basalt.webp",
+      "ancestry": "Orc",
+      "sha256": "808e84cdea0fabdf97028835fd06e22e60bac0889ceb60cccf0ad81a29a49989"
+    },
+    {
+      "id": "dragonborn-male-02",
+      "file": "dragonborn-male-02.webp",
+      "ancestry": "Dragonborn",
+      "sha256": "6b617018ed438df316d6707f5122d3b37f95cc703976beaeffeefcef78488afb"
+    },
+    {
+      "id": "dragonborn-male-03",
+      "file": "dragonborn-male-03.webp",
+      "ancestry": "Dragonborn",
+      "sha256": "b17672fc450c86a13e3f69aad110c1eba8779bd3fc3618bf4cf6a063b01deb6b"
+    },
+    {
+      "id": "dragonborn-male-04",
+      "file": "dragonborn-male-04.webp",
+      "ancestry": "Dragonborn",
+      "sha256": "bd2976283e4b771c77f4ff8079fecce4586eff471336da13fe04b5538fbf81fc"
+    },
+    {
+      "id": "dragonborn-male-05",
+      "file": "dragonborn-male-05.webp",
+      "ancestry": "Dragonborn",
+      "sha256": "9634cdad1c8673329b08ebabe515cf300590389bee7dc1467e432bf89ad5f9b3"
+    },
+    {
+      "id": "dragonborn-female-02",
+      "file": "dragonborn-female-02.webp",
+      "ancestry": "Dragonborn",
+      "sha256": "91f7035b668e7d5f24ee7cd580e9481dd9027809040c51e29ca53fa3a3eb16b9"
+    },
+    {
+      "id": "dragonborn-female-03",
+      "file": "dragonborn-female-03.webp",
+      "ancestry": "Dragonborn",
+      "sha256": "e65a9cd88755938ed3ce452ddf5fb8f228ae6e8bc416baa96a5c815bcb1f7598"
+    },
+    {
+      "id": "dragonborn-female-04",
+      "file": "dragonborn-female-04.webp",
+      "ancestry": "Dragonborn",
+      "sha256": "ae02146011af3436b30cf60758eaced381127e3c53b3abd2af1f63fcd49d4d84"
+    },
+    {
+      "id": "dragonborn-female-05",
+      "file": "dragonborn-female-05.webp",
+      "ancestry": "Dragonborn",
+      "sha256": "643aaeb3de0e9b0353851590f1de355739bdf175f595aded4ac2fd895d921ee9"
+    },
+    {
+      "id": "dwarf-male-02",
+      "file": "dwarf-male-02.webp",
+      "ancestry": "Dwarf",
+      "sha256": "f1439b0e2e638ebd3848ae21bae0322686fcadeee2a91b76f76a972975a8d983"
+    },
+    {
+      "id": "dwarf-male-03",
+      "file": "dwarf-male-03.webp",
+      "ancestry": "Dwarf",
+      "sha256": "ecaa19dfe39057856d53f767716b1ffb76375acfef1011b22999a58c361998a2"
+    },
+    {
+      "id": "dwarf-male-04",
+      "file": "dwarf-male-04.webp",
+      "ancestry": "Dwarf",
+      "sha256": "de1f14f938893be145303c491810a747dae63b187a104451fa95499262a93c12"
+    },
+    {
+      "id": "dwarf-male-05",
+      "file": "dwarf-male-05.webp",
+      "ancestry": "Dwarf",
+      "sha256": "873051392a9038d60ae0f67912e9fd4dd8497b7823a3ef41b828682f08e14a17"
+    },
+    {
+      "id": "dwarf-female-02",
+      "file": "dwarf-female-02.webp",
+      "ancestry": "Dwarf",
+      "sha256": "f410219465b9a11a317d225a9aa065c9d0fbc9bf28ad7a3844812ec634d6e5ec"
+    },
+    {
+      "id": "dwarf-female-03",
+      "file": "dwarf-female-03.webp",
+      "ancestry": "Dwarf",
+      "sha256": "2ea89e5fb7d2f68c5fa6e92400f6d5837d3fd07b8d84f065630d49f1b6b50e1b"
+    },
+    {
+      "id": "dwarf-female-04",
+      "file": "dwarf-female-04.webp",
+      "ancestry": "Dwarf",
+      "sha256": "06bffe70fc010f7a65ae564365b36b3fe89491fe652e57065478b134aa8985f7"
+    },
+    {
+      "id": "dwarf-female-05",
+      "file": "dwarf-female-05.webp",
+      "ancestry": "Dwarf",
+      "sha256": "9d6df5592da92aec5f1a1395906a2fbadb10f9d1ea817d14942f054124963939"
+    },
+    {
+      "id": "elf-male-02",
+      "file": "elf-male-02.webp",
+      "ancestry": "Elf",
+      "sha256": "9fbad909705ae526b5c38824a831f1a7a628f86a44734d7cfdaa0349e22f3c78"
+    },
+    {
+      "id": "elf-male-03",
+      "file": "elf-male-03.webp",
+      "ancestry": "Elf",
+      "sha256": "0594c9e32a929cf6281a2ebe35a7bf8bdc0d5e745d3e23b1ae55378cb7486653"
+    },
+    {
+      "id": "elf-male-04",
+      "file": "elf-male-04.webp",
+      "ancestry": "Elf",
+      "sha256": "df246a17ddddfa7189cb1e2beb80a77de684246137ed9e186259f14888f7739d"
+    },
+    {
+      "id": "elf-male-05",
+      "file": "elf-male-05.webp",
+      "ancestry": "Elf",
+      "sha256": "cab8d628ce1e00d145d50a3b40fdefaaccea04b77922fbf69efba6d331af1945"
+    },
+    {
+      "id": "elf-female-02",
+      "file": "elf-female-02.webp",
+      "ancestry": "Elf",
+      "sha256": "63ffb4754c60e52504a9a68a0215322ab051fa7da20a14bf9c86cf0380fb3115"
+    },
+    {
+      "id": "elf-female-03",
+      "file": "elf-female-03.webp",
+      "ancestry": "Elf",
+      "sha256": "6f6163da15f5f7750f7b145413e4ec3ad0edbcbf172a60182b896880abfc799e"
+    },
+    {
+      "id": "elf-female-04",
+      "file": "elf-female-04.webp",
+      "ancestry": "Elf",
+      "sha256": "1649e377b45a9750fce00001ae321eb8ebf91403d8544384d2785955fc4450c8"
+    },
+    {
+      "id": "elf-female-05",
+      "file": "elf-female-05.webp",
+      "ancestry": "Elf",
+      "sha256": "87ab8fe10b37c5c0f3eda1df6327c6722ea6a2fd4473824a947f27968777574d"
+    },
+    {
+      "id": "gnome-male-02",
+      "file": "gnome-male-02.webp",
+      "ancestry": "Gnome",
+      "sha256": "e0a9c8d3960fac70102109a5ba71fed0442c93ed2ad95524ed2cf4b7ee375a36"
+    },
+    {
+      "id": "gnome-male-03",
+      "file": "gnome-male-03.webp",
+      "ancestry": "Gnome",
+      "sha256": "ba079479cfe3de978d21ee2c7b7583edd7a08af7d3e6b7e004cfdf2d28484d1c"
+    },
+    {
+      "id": "gnome-male-04",
+      "file": "gnome-male-04.webp",
+      "ancestry": "Gnome",
+      "sha256": "e0c859f556881443e0680ec73e92436092aadcbaefaf1d32241e0e4b5fa71ae9"
+    },
+    {
+      "id": "gnome-male-05",
+      "file": "gnome-male-05.webp",
+      "ancestry": "Gnome",
+      "sha256": "500ebb0ea5866298e2da09073dd2a0282a15f25609b39da8167e9ce2f918924e"
+    },
+    {
+      "id": "gnome-female-02",
+      "file": "gnome-female-02.webp",
+      "ancestry": "Gnome",
+      "sha256": "1ed2a0cf921184439570f052c38d743527253f975b56fb4c354e088e4d3249b3"
+    },
+    {
+      "id": "gnome-female-03",
+      "file": "gnome-female-03.webp",
+      "ancestry": "Gnome",
+      "sha256": "53e8ce8c78985a1c5394ca1f1baf579686aea8e98e32d49f0aa34291894e2fec"
+    },
+    {
+      "id": "gnome-female-04",
+      "file": "gnome-female-04.webp",
+      "ancestry": "Gnome",
+      "sha256": "92ea64951c49449494dbff393f084619a43098591ef6c1f21d5b6ffe0ded3b1f"
+    },
+    {
+      "id": "gnome-female-05",
+      "file": "gnome-female-05.webp",
+      "ancestry": "Gnome",
+      "sha256": "caea530475d015ea89cff097398957d0255570fd6f24a6c2784878f5d89baeae"
+    },
+    {
+      "id": "half-elf-male-02",
+      "file": "half-elf-male-02.webp",
+      "ancestry": "Half-Elf",
+      "sha256": "830179f020f7daca69f54ba5e53cf64ee9ae5eb56521d55da4021d5da39fa49b"
+    },
+    {
+      "id": "half-elf-male-03",
+      "file": "half-elf-male-03.webp",
+      "ancestry": "Half-Elf",
+      "sha256": "344ee3d4ec1e00d156ca51c6f9579b113749a361f70860bb7ccd4f4fe04e3d2d"
+    },
+    {
+      "id": "half-elf-male-04",
+      "file": "half-elf-male-04.webp",
+      "ancestry": "Half-Elf",
+      "sha256": "03c6abadb37b734649f079aed2883318b20ecdc0e0875b875553afd03c507efe"
+    },
+    {
+      "id": "half-elf-male-05",
+      "file": "half-elf-male-05.webp",
+      "ancestry": "Half-Elf",
+      "sha256": "bd64c0ecba174197cd6cbd7ee0404d8223ba42d2ee1340bdbcc78427cae36af7"
+    },
+    {
+      "id": "half-elf-female-02",
+      "file": "half-elf-female-02.webp",
+      "ancestry": "Half-Elf",
+      "sha256": "ed0681195fda86cf7e41fff305f447df539656b8ad740c9ebdc7d9e5124c3f19"
+    },
+    {
+      "id": "half-elf-female-03",
+      "file": "half-elf-female-03.webp",
+      "ancestry": "Half-Elf",
+      "sha256": "42853f7716ca5dd52191ae48e3b32cd424bd5d89657ee9c48129d3db4bd7646f"
+    },
+    {
+      "id": "half-elf-female-04",
+      "file": "half-elf-female-04.webp",
+      "ancestry": "Half-Elf",
+      "sha256": "0b67b4dce7c7113327d35fd460f059f7e133a06c217f9ea26608974943656aeb"
+    },
+    {
+      "id": "half-elf-female-05",
+      "file": "half-elf-female-05.webp",
+      "ancestry": "Half-Elf",
+      "sha256": "a9ad3d727ef71c3e99ac7ebef3e6e663735e50b701364cb8a17d875f973d9b17"
+    },
+    {
+      "id": "half-orc-male-02",
+      "file": "half-orc-male-02.webp",
+      "ancestry": "Half-Orc",
+      "sha256": "ff29d20536f3206a6c9d6060519b6ddee12918b52ebd91c21d6cdb79f4f451e9"
+    },
+    {
+      "id": "half-orc-male-03",
+      "file": "half-orc-male-03.webp",
+      "ancestry": "Half-Orc",
+      "sha256": "ef63b0e9b83f2228ad9c5e3f343169840cf8f74e538d806467a972480a6ae207"
+    },
+    {
+      "id": "half-orc-male-04",
+      "file": "half-orc-male-04.webp",
+      "ancestry": "Half-Orc",
+      "sha256": "9ccf1b9b42f9b748ad686d29ce17c24391cacd66b3c038cf9aae9720881bf7dc"
+    },
+    {
+      "id": "half-orc-male-05",
+      "file": "half-orc-male-05.webp",
+      "ancestry": "Half-Orc",
+      "sha256": "2b7b3f7da85135bbff50dfcb204c907dc7499274a259cdb7dd65b6b66e616b3b"
+    },
+    {
+      "id": "half-orc-female-02",
+      "file": "half-orc-female-02.webp",
+      "ancestry": "Half-Orc",
+      "sha256": "93b90f388825ef4067088b44f2b5d2038834a4b093563b9d1bfaf77234bd7ea1"
+    },
+    {
+      "id": "half-orc-female-03",
+      "file": "half-orc-female-03.webp",
+      "ancestry": "Half-Orc",
+      "sha256": "247371386a08488e56185effb6e0e158e53713cc742ac3271f5e2fcabeffe4b2"
+    },
+    {
+      "id": "half-orc-female-04",
+      "file": "half-orc-female-04.webp",
+      "ancestry": "Half-Orc",
+      "sha256": "845c1269481b8aaf015a303cc938d816823f5cde364dbc94c37a3cd161cef920"
+    },
+    {
+      "id": "half-orc-female-05",
+      "file": "half-orc-female-05.webp",
+      "ancestry": "Half-Orc",
+      "sha256": "fcbcc55e4456aad62dd2c0f299eb4620ef808165ddd5d80cfdb7087ae5f16ab9"
+    },
+    {
+      "id": "halfling-male-02",
+      "file": "halfling-male-02.webp",
+      "ancestry": "Halfling",
+      "sha256": "a35e40ff7cee678c4bcd2be01fcad2be94d8da08cb8ef5019ca482d88bfa47c5"
+    },
+    {
+      "id": "halfling-male-03",
+      "file": "halfling-male-03.webp",
+      "ancestry": "Halfling",
+      "sha256": "6bd2f36994cec216e6bea7ac3e117b38d77e45d83b18190273d2573eed532227"
+    },
+    {
+      "id": "halfling-male-04",
+      "file": "halfling-male-04.webp",
+      "ancestry": "Halfling",
+      "sha256": "eb7fd87f1a854d8e32b12e06266fd68d24746c2a0859853ab431b615e874cede"
+    },
+    {
+      "id": "halfling-male-05",
+      "file": "halfling-male-05.webp",
+      "ancestry": "Halfling",
+      "sha256": "8699ea4c658c65985c4aba9635ae94595478156286503812dba8a8e6213fcbb5"
+    },
+    {
+      "id": "halfling-female-02",
+      "file": "halfling-female-02.webp",
+      "ancestry": "Halfling",
+      "sha256": "d0306e35e3d2c58005ae784c96ba35a265bb1727938e47fc0b8ddae22c3ed1fd"
+    },
+    {
+      "id": "halfling-female-03",
+      "file": "halfling-female-03.webp",
+      "ancestry": "Halfling",
+      "sha256": "bb78e56d70c756778fe0227cdfc040bcc32d5cb5e0c6551e60cdb5e612cf3b73"
+    },
+    {
+      "id": "halfling-female-04",
+      "file": "halfling-female-04.webp",
+      "ancestry": "Halfling",
+      "sha256": "e7c911b4878a918f0a43df8053088adee361546712151663fd3ac58c83c818ff"
+    },
+    {
+      "id": "halfling-female-05",
+      "file": "halfling-female-05.webp",
+      "ancestry": "Halfling",
+      "sha256": "e849b2dc37ef8b689f65806fb6ab3ac051cc6ec9d8bf119614bbf040c8d4acef"
+    },
+    {
+      "id": "human-male-02",
+      "file": "human-male-02.webp",
+      "ancestry": "Human",
+      "sha256": "6e6476383c17ce63b8c069bff557355ce2cd3303250aca3ca92c747f9ae0dc4f"
+    },
+    {
+      "id": "human-male-03",
+      "file": "human-male-03.webp",
+      "ancestry": "Human",
+      "sha256": "37fd24d290afc0c0a2f3f7cf6762e4eff5299f243f0a0a8ab72c330bb3083cb0"
+    },
+    {
+      "id": "human-male-04",
+      "file": "human-male-04.webp",
+      "ancestry": "Human",
+      "sha256": "19679e0b860b2ddafa5b5ef5f431c92c41b3d16006ae10e6db9009ff023701da"
+    },
+    {
+      "id": "human-male-05",
+      "file": "human-male-05.webp",
+      "ancestry": "Human",
+      "sha256": "235fae2c17c5343b571300c37fbc955c461271cedd7fdcf0d1e750764c42a331"
+    },
+    {
+      "id": "human-female-03",
+      "file": "human-female-03.webp",
+      "ancestry": "Human",
+      "sha256": "db551be4b87854bfbe2a9977b3e8885ec50c20b02f437f8a260eb113128a8816"
+    },
+    {
+      "id": "human-female-04",
+      "file": "human-female-04.webp",
+      "ancestry": "Human",
+      "sha256": "63959c5a763c9d0ec29772bd42904294644aa811fea067f41607892aa75a3482"
+    },
+    {
+      "id": "human-female-05",
+      "file": "human-female-05.webp",
+      "ancestry": "Human",
+      "sha256": "5699ed0db4a188023919b0267d52feeaaca8180b753cadcd27251b92d03ab40f"
+    },
+    {
+      "id": "tiefling-male-01",
+      "file": "tiefling-male-01.webp",
+      "ancestry": "Tiefling",
+      "sha256": "970db43236afddad3f972f0ff90887e2b9ab586bb433c1b8388dc59d8f86f564"
+    },
+    {
+      "id": "tiefling-male-02",
+      "file": "tiefling-male-02.webp",
+      "ancestry": "Tiefling",
+      "sha256": "2c5c7f07a18e7bad2887a996beab1637f880cbedd93ee8328c2aaed5c82cf584"
+    },
+    {
+      "id": "tiefling-male-03",
+      "file": "tiefling-male-03.webp",
+      "ancestry": "Tiefling",
+      "sha256": "2199f4ba220ac78311e3cb531863c957dd3fe4a3627149c32a830a02e9013837"
+    },
+    {
+      "id": "tiefling-male-04",
+      "file": "tiefling-male-04.webp",
+      "ancestry": "Tiefling",
+      "sha256": "3b0f2dcb532acc32ca782012a71c6546525e1504b49daf029de533f168659799"
+    },
+    {
+      "id": "tiefling-male-05",
+      "file": "tiefling-male-05.webp",
+      "ancestry": "Tiefling",
+      "sha256": "41ca5fe74010ab9304cc32b0311d068effc4f0642af220d6d9ade87bad66f3fd"
+    },
+    {
+      "id": "tiefling-female-02",
+      "file": "tiefling-female-02.webp",
+      "ancestry": "Tiefling",
+      "sha256": "e94cb951cae70d9eecfde5d061a705ae0c45900fefa2616df6a4eb46eb2fb20e"
+    },
+    {
+      "id": "tiefling-female-03",
+      "file": "tiefling-female-03.webp",
+      "ancestry": "Tiefling",
+      "sha256": "b4e7576f7469e523dd2d8325854b8635369be5931a18e0265b5818e7e6546341"
+    },
+    {
+      "id": "tiefling-female-04",
+      "file": "tiefling-female-04.webp",
+      "ancestry": "Tiefling",
+      "sha256": "0be1c739b9e76a34ac20098c45474f9a9a4604087938ada827d98acf9dbe27e3"
+    },
+    {
+      "id": "tiefling-female-05",
+      "file": "tiefling-female-05.webp",
+      "ancestry": "Tiefling",
+      "sha256": "7c00a597d451621aff31cb16d3f0713c7cac20e6ff0c68c11bf5804ce8517748"
+    },
+    {
+      "id": "goliath-male-02",
+      "file": "goliath-male-02.webp",
+      "ancestry": "Goliath",
+      "sha256": "f4d936b2c71b00130f44a6496967edb265b7100b5c17345b17e7d9212928953c"
+    },
+    {
+      "id": "goliath-male-03",
+      "file": "goliath-male-03.webp",
+      "ancestry": "Goliath",
+      "sha256": "c447089b46da98484219d92e2f0295798760c6d90b9055de426763377b817cc3"
+    },
+    {
+      "id": "goliath-male-04",
+      "file": "goliath-male-04.webp",
+      "ancestry": "Goliath",
+      "sha256": "bed6cc1b8b78fa1631945d5793b393b67ecc8c746ddeaecf65a5eebc8f19c9a7"
+    },
+    {
+      "id": "goliath-male-05",
+      "file": "goliath-male-05.webp",
+      "ancestry": "Goliath",
+      "sha256": "d33f37f2ee92adf5e2c7785c506aa686c12202c72aef573e153190b764d566bc"
+    },
+    {
+      "id": "goliath-female-02",
+      "file": "goliath-female-02.webp",
+      "ancestry": "Goliath",
+      "sha256": "df88763f5c36f0a63059d2f88cb64589a3cc396027092d452639574d18d4930f"
+    },
+    {
+      "id": "goliath-female-03",
+      "file": "goliath-female-03.webp",
+      "ancestry": "Goliath",
+      "sha256": "972df900c44c2e601a18c328f5c2d17c050622a0f57a94c5b9ec5ffe538521ed"
+    },
+    {
+      "id": "goliath-female-04",
+      "file": "goliath-female-04.webp",
+      "ancestry": "Goliath",
+      "sha256": "4714aaf41fb6ab2885aaecd77273e71598db6e919393a942808c09311587e813"
+    },
+    {
+      "id": "goliath-female-05",
+      "file": "goliath-female-05.webp",
+      "ancestry": "Goliath",
+      "sha256": "1a5d2b0b76bc2d2cb7d38b5ae5ee798269f517087d9cef01b4aada409d5fc168"
+    },
+    {
+      "id": "orc-male-02",
+      "file": "orc-male-02.webp",
+      "ancestry": "Orc",
+      "sha256": "4103b9665aefa3866d8879405c87b54d7563a4a0e47df21eb08268a7e0cd64b9"
+    },
+    {
+      "id": "orc-male-03",
+      "file": "orc-male-03.webp",
+      "ancestry": "Orc",
+      "sha256": "fa0cc4a3303aa6bbbe1eba8824e30558c89106bdd6763bb6ac7c336060b773a7"
+    },
+    {
+      "id": "orc-male-04",
+      "file": "orc-male-04.webp",
+      "ancestry": "Orc",
+      "sha256": "a5ab0498076d15c297925286a68f6929eb5bb788382f4275ede6308099548e9b"
+    },
+    {
+      "id": "orc-male-05",
+      "file": "orc-male-05.webp",
+      "ancestry": "Orc",
+      "sha256": "0833691b4b7a521917394ca994431f0df7d7eaa055834c8f9b3f4556fe868727"
+    },
+    {
+      "id": "orc-female-02",
+      "file": "orc-female-02.webp",
+      "ancestry": "Orc",
+      "sha256": "a723f8a930e7f7eeda0e911fd9e075632aeb104cf6af9798c7314d1c16b4adab"
+    },
+    {
+      "id": "orc-female-03",
+      "file": "orc-female-03.webp",
+      "ancestry": "Orc",
+      "sha256": "cda0542165c30c5aa6414f83a2a852859bd001142f20747c3248b40863703e6b"
+    },
+    {
+      "id": "orc-female-04",
+      "file": "orc-female-04.webp",
+      "ancestry": "Orc",
+      "sha256": "093301204650dc43c2510c8a1422c382de5355360dd1947e1cbe55cfcedb6910"
+    },
+    {
+      "id": "orc-female-05",
+      "file": "orc-female-05.webp",
+      "ancestry": "Orc",
+      "sha256": "565e8e8ca0881d4dcec38a3f9f2fd22d05219a3897e03abd9478c708477779a9"
+    }
+  ]
+}

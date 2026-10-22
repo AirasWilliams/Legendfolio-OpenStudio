@@ -2,7 +2,7 @@
 
 Thanks for helping make a practical tabletop companion. Small, focused improvements are easier to review and protect the workflows players already rely on.
 
-The project's software licence is not yet adopted in this release. Confirm the repository's current licensing/contribution terms before submitting code; do not assume a copyright transfer or contributor agreement exists. Third-party content must retain its applicable terms.
+Original application code is AGPL-3.0-only. Submit code you have the right to contribute under that licence. No copyright transfer or separate contributor agreement is assumed. Third-party content retains its applicable terms; see LICENSES.md.
 
 ## Useful contributions
 
@@ -36,15 +36,15 @@ The current deployment build is:
 node scripts/build.mjs
 ```
 
-It copies the existing embedded application and validates public configuration. It does not regenerate interface code, CSP hashes or migration state. Source-generation and full regression tooling may be separate from a deployment archive; identify the actual source tree and release workflow with the maintainer before making a broad change.
+It assembles `src/`, generates security hashes/release metadata and writes `dist/`, the prebuilt local application and a corresponding-source archive. Node.js 22 or later is required; no npm dependency download is needed. Do not hand-edit generated HTML or release metadata.
 
-Where `tests/cloud_core.test.cjs` is present, its focused cloud-helper checks can run with:
+Run the included reproducible public checks with:
 
 ```sh
-node tests/cloud_core.test.cjs
+npm test
 ```
 
-That is a mocked client/unit suite, not a live backend acceptance test. Some database tests currently expect maintainer-workspace paths and a separately provisioned PGlite test runtime; a deployment archive is not a complete reproducible test harness. Document test prerequisites instead of weakening checks to make an incomplete setup pass.
+These exercise backend configuration, source assembly, deterministic build/archive, cloud helpers and gameplay cores using fictional data. They are not live Supabase acceptance. Historical database/UI suites are not all included; add focused public tests with clear prerequisites as this contributor suite grows. Use `npm start` after building to serve `dist/` locally.
 
 ## Review expectations
 

@@ -1,6 +1,6 @@
 # Legendfolio roadmap
 
-This roadmap describes direction, not guaranteed delivery dates. Build 60 is the current SMART PLAY baseline. Planned features below should not be advertised as available in that build.
+This roadmap describes direction, not guaranteed delivery dates. Build 61 is the public SMART PLAY baseline. Planned features below should not be advertised as available in that build.
 
 ## Available foundation
 

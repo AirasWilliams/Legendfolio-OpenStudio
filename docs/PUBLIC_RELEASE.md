@@ -1,33 +1,39 @@
-# Preparing the first public repository
+# Public release and hosting policy
 
-The README and these guides describe the current Build 60 capabilities and planned direction. Preparing documentation does not itself audit the full repository/history, apply a licence or change GitHub visibility.
+Build 61 keeps the connected feature code with local-first entry and optional instance configuration. It does not introduce a public shared development database.
 
-## Recommended online-feature policy
+## Package contents
 
-Keep the connected feature code in the public project. Support **local-first use with optional cloud setup** in one codebase.
+- Original code under AGPL-3.0-only and a reproducible Node-only source build.
+- Editable source/styles, blank seed, SRD data, migrations and focused public tests.
+- A prebuilt local application and configurable static deployment output.
+- No upstream Supabase URL/key in default configuration. Disabled builds permit no Supabase network origin.
+- A corresponding-source ZIP generated with each deployment and available through About.
+- 112 portraits with CC BY 4.0 permission to the extent applicable rights are held, AI-generation provenance and checksums.
+- Exact SRD attribution, library notices and a separate branding policy.
+- Setup documentation and CI using fictional data, without production credentials.
 
-People trying the app can choose Enter Studio without creating an account. People self-hosting shared campaigns can follow [SELF_HOSTING.md](SELF_HOSTING.md) and use their own Supabase instance. Hosted-service access and operating costs remain an instance operator's decision.
+## Online onboarding
 
-Before release, remove inherited production defaults from fork-oriented example configuration. Public source must not silently position the maintainer's live database as a shared development service. This is a configuration/release-preparation requirement, not a reason to remove cloud functionality from the codebase.
+1. Try Enter Studio locally; no account/backend required.
+2. Join an existing instance through its sign-in and campaign invite workflow.
+3. To host connected play, follow [SELF_HOSTING.md](SELF_HOSTING.md), apply migrations 001–018 to your own Supabase project and supply its public configuration.
+4. Build/deploy and verify separate DM/player/unrelated accounts before inviting users.
 
-The current code expects a valid public cloud configuration during the supplied static build; it does not yet define a separate compile-time cloud-disabled build profile. Emptying configuration or deleting cloud modules is not a documented safe way to produce one. Use the existing local operating mode, and implement/test a proper configuration-disabled mode if desired later.
+Vercel Hobby and Supabase Free are starter options subject to current terms/limits, not a promise of permanent zero-cost public hosting. Vercel Hobby is for personal/non-commercial use; Supabase Free projects can pause after low activity. See [Vercel terms](https://vercel.com/legal/terms) and [Supabase pausing](https://supabase.com/docs/guides/platform/free-project-pausing).
 
-## Release preparation
+## Publishing the repository
 
-1. **Choose and apply a software licence.** AGPL-3.0 is recommended for the stated community/hosted-service goals, subject to dependency compatibility review. The maintainer has not yet adopted it. Add an actual licence file and update README/contribution terms together. Public visibility alone does not grant an open-source licence.
-2. **Audit dependency and content licensing.** Preserve Supabase/PDF library notices; identify exact SRD versions and required attribution; document portrait provenance/terms; keep user uploads and third-party books/art separate from the code licence. Publish a concrete asset licence/notice rather than assuming all files share one licence.
-3. **Audit the tree and Git history.** Check for secret credentials, session tokens, personal/campaign data, private attachments, database exports and unintended generated files. Ignore rules do not remove already tracked history. Rotate exposed secret credentials before history cleanup where applicable. Publishable keys are a separate configuration concern, not privileged credentials.
-4. **Prepare independent example configuration.** Replace live defaults in `cloud-config.json` and `.env.example`, document environment variables, and ensure the matching CSP origin is configured. Test a fresh fork with its own backend and a fresh local-only user.
-5. **Publish the preferred editable source and release tooling.** Include the interface source modules/styles, generation scripts, pinned test dependencies and fictional fixtures needed to reproduce the application. The current deployment build alone copies generated HTML and is not that complete workflow. If AGPL is adopted, review corresponding-source obligations for all covered deployed components.
-6. **Make CI and contributor setup reproducible.** Remove machine-specific paths from public test runners or document/provision their runtime. Include a clean build/test workflow and review generated output, security hashes, release identity and package contents.
-7. **Prepare issue and security intake.** Enable private vulnerability reporting where appropriate; add clear issue expectations and contribution boundaries. No contact details or SLAs should be invented.
-8. **Verify the release from a clean checkout.** Use fictional data, local entry, a separate Supabase project, separate DM/player/unrelated accounts and real mobile/tablet testing. Confirm no private fixture data is in the public application.
-9. **Publish a named public preview.** Keep delivered features separate from roadmap promises. Preserve the known working baseline and provide additive migration/update steps.
+Place this package's contents at the repository root. This export includes no Git history. If changing an existing repository's visibility, audit its commits, branches, tracked attachments and settings independently. A clean new ZIP does not sanitise existing history.
 
-## Repository placement
+The official deployment is not reconfigured by this package. Its environment settings remain the operator's responsibility. Fork accounts/campaigns are independent unless operators deliberately use the same trusted backend.
 
-Place `README.md`, `CONTRIBUTING.md` and `SECURITY.md` at the root of the actual public GitHub repository, alongside the current deployment layout. Place the accompanying files in `docs/`.
+Review the package and enable GitHub private vulnerability reporting before inviting contributions. Add actual repository/contact details when known; this release invents neither a security mailbox nor an SLA.
 
-If the application lives in a subfolder of a larger source repository, adapt README links, startup commands and deployment-root instructions to that final layout. Do not publish a private development workspace wholesale just to expose the application.
+Before public connected registration, verify Auth/email delivery, campaign isolation, backups, abuse handling and provider limits on the actual deployment. Local automated checks do not establish live acceptance.
 
-This documentation does not require changing the existing official deployment's backend configuration. Public-fork defaults and the official service's environment settings should be managed deliberately and independently.
+## Release discipline
+
+Preserve source downloads, notices, migration order, matching cache identities and explicit local/cloud scopes. Additive database changes and reviewed increments protect existing users.
+
+WORLD, Worldcraft Studio, tabletop tokens/movement, fog/vision and Discord remain planned. See [ROADMAP.md](ROADMAP.md).

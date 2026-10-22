@@ -1,0 +1,3306 @@
+{
+  "record": {
+    "format": "strixhaven-living-v1",
+    "loaded": false,
+    "fields": {},
+    "art": {},
+    "notes": {
+      "story": "",
+      "guide": "",
+      "session": ""
+    },
+    "college": "Unaligned",
+    "savedAt": 0
+  },
+  "storageName": "living-record-studio-v2",
+  "schema": [
+    {
+      "name": "ClassLevel",
+      "label": "Class & level",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Background",
+      "label": "Background",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "PlayerName",
+      "label": "Player name",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "CharacterName",
+      "label": "Character name",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Race ",
+      "label": "Lineage",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Alignment",
+      "label": "Alignment",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "XP",
+      "label": "XP",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Inspiration",
+      "label": "Inspiration",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "STR",
+      "label": "STR",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "ProfBonus",
+      "label": "ProfBonus",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "AC",
+      "label": "Base AC",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Initiative",
+      "label": "Initiative",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Speed",
+      "label": "Speed",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "PersonalityTraits ",
+      "label": "PersonalityTraits",
+      "checkbox": false,
+      "multiline": true
+    },
+    {
+      "name": "STRmod",
+      "label": "STRmod",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "ST Strength",
+      "label": "ST Strength",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "DEX",
+      "label": "DEX",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Ideals",
+      "label": "Ideals",
+      "checkbox": false,
+      "multiline": true
+    },
+    {
+      "name": "DEXmod ",
+      "label": "DEXmod",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Bonds",
+      "label": "Bonds",
+      "checkbox": false,
+      "multiline": true
+    },
+    {
+      "name": "CON",
+      "label": "CON",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "HDTotal",
+      "label": "HDTotal",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 12",
+      "label": "Check Box 12",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 13",
+      "label": "Check Box 13",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 14",
+      "label": "Check Box 14",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "CONmod",
+      "label": "CONmod",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 15",
+      "label": "Check Box 15",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 16",
+      "label": "Check Box 16",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 17",
+      "label": "Check Box 17",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "HD",
+      "label": "HD",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Flaws",
+      "label": "Flaws",
+      "checkbox": false,
+      "multiline": true
+    },
+    {
+      "name": "INT",
+      "label": "INT",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "ST Dexterity",
+      "label": "ST Dexterity",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "ST Constitution",
+      "label": "ST Constitution",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "ST Intelligence",
+      "label": "ST Intelligence",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "ST Wisdom",
+      "label": "ST Wisdom",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "ST Charisma",
+      "label": "ST Charisma",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Acrobatics",
+      "label": "Acrobatics",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Animal",
+      "label": "Animal",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Athletics",
+      "label": "Athletics",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Deception ",
+      "label": "Deception",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "History ",
+      "label": "History",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Wpn Name",
+      "label": "Wpn Name",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Wpn1 AtkBonus",
+      "label": "Wpn1 AtkBonus",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Wpn1 Damage",
+      "label": "Wpn1 Damage",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Insight",
+      "label": "Insight",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Intimidation",
+      "label": "Intimidation",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Wpn Name 2",
+      "label": "Wpn Name 2",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Wpn2 AtkBonus ",
+      "label": "Wpn2 AtkBonus",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Wpn Name 3",
+      "label": "Wpn Name 3",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Wpn3 AtkBonus  ",
+      "label": "Wpn3 AtkBonus",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 11",
+      "label": "Check Box 11",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 18",
+      "label": "Check Box 18",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 19",
+      "label": "Check Box 19",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 20",
+      "label": "Check Box 20",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 21",
+      "label": "Check Box 21",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 22",
+      "label": "Check Box 22",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "INTmod",
+      "label": "INTmod",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Wpn2 Damage ",
+      "label": "Wpn2 Damage",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Investigation ",
+      "label": "Investigation",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "WIS",
+      "label": "WIS",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Arcana",
+      "label": "Arcana",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Perception ",
+      "label": "Perception",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "WISmod",
+      "label": "WISmod",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "CHA",
+      "label": "CHA",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Nature",
+      "label": "Nature",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Performance",
+      "label": "Performance",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Medicine",
+      "label": "Medicine",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Religion",
+      "label": "Religion",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Stealth ",
+      "label": "Stealth",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 23",
+      "label": "Check Box 23",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 24",
+      "label": "Check Box 24",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 25",
+      "label": "Check Box 25",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 26",
+      "label": "Check Box 26",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 27",
+      "label": "Check Box 27",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 28",
+      "label": "Check Box 28",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 29",
+      "label": "Check Box 29",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 30",
+      "label": "Check Box 30",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 31",
+      "label": "Check Box 31",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 32",
+      "label": "Check Box 32",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 33",
+      "label": "Check Box 33",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 34",
+      "label": "Check Box 34",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 35",
+      "label": "Check Box 35",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 36",
+      "label": "Check Box 36",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 37",
+      "label": "Check Box 37",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 38",
+      "label": "Check Box 38",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 39",
+      "label": "Check Box 39",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 40",
+      "label": "Check Box 40",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Persuasion",
+      "label": "Persuasion",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "HPMax",
+      "label": "Base maximum HP",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "HPCurrent",
+      "label": "Current HP",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "HPTemp",
+      "label": "Temporary HP",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Wpn3 Damage ",
+      "label": "Wpn3 Damage",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "SleightofHand",
+      "label": "SleightofHand",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "CHamod",
+      "label": "CHamod",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Survival",
+      "label": "Survival",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "AttacksSpellcasting",
+      "label": "AttacksSpellcasting",
+      "checkbox": false,
+      "multiline": true
+    },
+    {
+      "name": "Passive",
+      "label": "Passive",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "CP",
+      "label": "CP",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "ProficienciesLang",
+      "label": "Proficiencies & languages",
+      "checkbox": false,
+      "multiline": true
+    },
+    {
+      "name": "SP",
+      "label": "SP",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "EP",
+      "label": "EP",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "GP",
+      "label": "GP",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "PP",
+      "label": "PP",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Equipment",
+      "label": "Equipment",
+      "checkbox": false,
+      "multiline": true
+    },
+    {
+      "name": "Features and Traits",
+      "label": "Features and Traits",
+      "checkbox": false,
+      "multiline": true
+    },
+    {
+      "name": "CharacterName 2",
+      "label": "CharacterName 2",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Age",
+      "label": "Age",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Height",
+      "label": "Height",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Weight",
+      "label": "Weight",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Eyes",
+      "label": "Eyes",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Skin",
+      "label": "Skin",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Hair",
+      "label": "Hair",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "CHARACTER IMAGE",
+      "label": "CHARACTER IMAGE",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Faction Symbol Image",
+      "label": "Faction Symbol Image",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Allies",
+      "label": "Allies",
+      "checkbox": false,
+      "multiline": true
+    },
+    {
+      "name": "FactionName",
+      "label": "FactionName",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Backstory",
+      "label": "Backstory",
+      "checkbox": false,
+      "multiline": true
+    },
+    {
+      "name": "Feat+Traits",
+      "label": "Additional features & traits",
+      "checkbox": false,
+      "multiline": true
+    },
+    {
+      "name": "Treasure",
+      "label": "Treasure",
+      "checkbox": false,
+      "multiline": true
+    },
+    {
+      "name": "GENERAL OUTFIT CLOTHES",
+      "label": "GENERAL OUTFIT CLOTHES",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "MISCELLANIOUS WORN GEAR",
+      "label": "MISCELLANIOUS WORN GEAR",
+      "checkbox": false,
+      "multiline": true
+    },
+    {
+      "name": "PACKED GEAR_1",
+      "label": "PACKED GEAR_1",
+      "checkbox": false,
+      "multiline": true
+    },
+    {
+      "name": "PACKED GEAR_2",
+      "label": "PACKED GEAR_2",
+      "checkbox": false,
+      "multiline": true
+    },
+    {
+      "name": "PACKED GEAR 3",
+      "label": "PACKED GEAR 3",
+      "checkbox": false,
+      "multiline": true
+    },
+    {
+      "name": "APPEARANCE_IMAGE",
+      "label": "APPEARANCE_IMAGE",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "HEAD",
+      "label": "HEAD",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "FACE",
+      "label": "FACE",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "THROAT",
+      "label": "THROAT",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "SHOULDERS",
+      "label": "SHOULDERS",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "BODY",
+      "label": "BODY",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "TORSO",
+      "label": "TORSO",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "HANDS",
+      "label": "HANDS",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "WAIST",
+      "label": "WAIST",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "WEAPON_1",
+      "label": "WEAPON_1",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "FEET",
+      "label": "FEET",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "WEAPON_2",
+      "label": "WEAPON_2",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "ARMS",
+      "label": "ARMS",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "WEAPON_3",
+      "label": "WEAPON_3",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "RING_1",
+      "label": "RING_1",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "MISC 1",
+      "label": "MISC 1",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "RING 2",
+      "label": "RING 2",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "MISC 2",
+      "label": "MISC 2",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "MISC 3",
+      "label": "MISC 3",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "MISC 4",
+      "label": "MISC 4",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "MISC 5",
+      "label": "MISC 5",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "MISC 6",
+      "label": "MISC 6",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "PACK TYPE",
+      "label": "PACK TYPE",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "CAPACITY",
+      "label": "CAPACITY",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "WORN TOTAL",
+      "label": "WORN TOTAL",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LIFT_CARRY",
+      "label": "LIFT_CARRY",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "PUSH-DRAG",
+      "label": "PUSH-DRAG",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "PACKED TOTAL",
+      "label": "PACKED TOTAL",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "COMBinED TOTAL",
+      "label": "COMBinED TOTAL",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "NAME",
+      "label": "NAME",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS1",
+      "label": "LBS1",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS2",
+      "label": "LBS2",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS3",
+      "label": "LBS3",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS4",
+      "label": "LBS4",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS5",
+      "label": "LBS5",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS6",
+      "label": "LBS6",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS7",
+      "label": "LBS7",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS8",
+      "label": "LBS8",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS9",
+      "label": "LBS9",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS10",
+      "label": "LBS10",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS11",
+      "label": "LBS11",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS12",
+      "label": "LBS12",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS13",
+      "label": "LBS13",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS14",
+      "label": "LBS14",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS15",
+      "label": "LBS15",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS16",
+      "label": "LBS16",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS17",
+      "label": "LBS17",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS18",
+      "label": "LBS18",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS19",
+      "label": "LBS19",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS20",
+      "label": "LBS20",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS21",
+      "label": "LBS21",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS22",
+      "label": "LBS22",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS23",
+      "label": "LBS23",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "LBS24",
+      "label": "LBS24",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "FACEATT",
+      "label": "FACEATT",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "SHOULDERATT",
+      "label": "SHOULDERATT",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "HEADATT",
+      "label": "HEADATT",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "THROATATT",
+      "label": "THROATATT",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "BODYATT",
+      "label": "BODYATT",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "HANDSATT",
+      "label": "HANDSATT",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "TORSOATT",
+      "label": "TORSOATT",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "ARMSATT",
+      "label": "ARMSATT",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "WAISTATT",
+      "label": "WAISTATT",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "FEETATT",
+      "label": "FEETATT",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "RINGSATT1",
+      "label": "RINGSATT1",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "RiNGSATT2",
+      "label": "RiNGSATT2",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "MISCATT2",
+      "label": "MISCATT2",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "MISCATT1",
+      "label": "MISCATT1",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "MISCATT3",
+      "label": "MISCATT3",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "MISCATT5",
+      "label": "MISCATT5",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "MISCATT4",
+      "label": "MISCATT4",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "MISCATT6",
+      "label": "MISCATT6",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "WEAPATT2",
+      "label": "WEAPATT2",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "WEAPATT1",
+      "label": "WEAPATT1",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "WEAPATT3",
+      "label": "WEAPATT3",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Spellcasting Class 2",
+      "label": "Spellcasting Class 2",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "SpellcastingAbility 2",
+      "label": "SpellcastingAbility 2",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "SpellSaveDC  2",
+      "label": "SpellSaveDC  2",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "SpellAtkBonus 2",
+      "label": "SpellAtkBonus 2",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "SlotsTotal 19",
+      "label": "SlotsTotal 19",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "SlotsRemaining 19",
+      "label": "SlotsRemaining 19",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1014",
+      "label": "Spells 1014",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1015",
+      "label": "Spells 1015",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1016",
+      "label": "Spells 1016",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1017",
+      "label": "Spells 1017",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1018",
+      "label": "Spells 1018",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1019",
+      "label": "Spells 1019",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1020",
+      "label": "Spells 1020",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1021",
+      "label": "Spells 1021",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1022",
+      "label": "Spells 1022",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 314",
+      "label": "Check Box 314",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3031",
+      "label": "Check Box 3031",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3032",
+      "label": "Check Box 3032",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3033",
+      "label": "Check Box 3033",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3034",
+      "label": "Check Box 3034",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3035",
+      "label": "Check Box 3035",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3036",
+      "label": "Check Box 3036",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3037",
+      "label": "Check Box 3037",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3038",
+      "label": "Check Box 3038",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3039",
+      "label": "Check Box 3039",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3040",
+      "label": "Check Box 3040",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 321",
+      "label": "Check Box 321",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 320",
+      "label": "Check Box 320",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3060",
+      "label": "Check Box 3060",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3061",
+      "label": "Check Box 3061",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3062",
+      "label": "Check Box 3062",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3063",
+      "label": "Check Box 3063",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3064",
+      "label": "Check Box 3064",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3065",
+      "label": "Check Box 3065",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3066",
+      "label": "Check Box 3066",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 315",
+      "label": "Check Box 315",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3041",
+      "label": "Check Box 3041",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1023",
+      "label": "Spells 1023",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 251",
+      "label": "Check Box 251",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 309",
+      "label": "Check Box 309",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3010",
+      "label": "Check Box 3010",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3011",
+      "label": "Check Box 3011",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3012",
+      "label": "Check Box 3012",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3013",
+      "label": "Check Box 3013",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3014",
+      "label": "Check Box 3014",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3015",
+      "label": "Check Box 3015",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3016",
+      "label": "Check Box 3016",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3017",
+      "label": "Check Box 3017",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3018",
+      "label": "Check Box 3018",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3019",
+      "label": "Check Box 3019",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1024",
+      "label": "Spells 1024",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1025",
+      "label": "Spells 1025",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1026",
+      "label": "Spells 1026",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1027",
+      "label": "Spells 1027",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1028",
+      "label": "Spells 1028",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1029",
+      "label": "Spells 1029",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1030",
+      "label": "Spells 1030",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1031",
+      "label": "Spells 1031",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1032",
+      "label": "Spells 1032",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1033",
+      "label": "Spells 1033",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "SlotsTotal 20",
+      "label": "SlotsTotal 20",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "SlotsRemaining 20",
+      "label": "SlotsRemaining 20",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1034",
+      "label": "Spells 1034",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1035",
+      "label": "Spells 1035",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1036",
+      "label": "Spells 1036",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1037",
+      "label": "Spells 1037",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1038",
+      "label": "Spells 1038",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1039",
+      "label": "Spells 1039",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1040",
+      "label": "Spells 1040",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1041",
+      "label": "Spells 1041",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1042",
+      "label": "Spells 1042",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1043",
+      "label": "Spells 1043",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1044",
+      "label": "Spells 1044",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1045",
+      "label": "Spells 1045",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1046",
+      "label": "Spells 1046",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "SlotsTotal 21",
+      "label": "SlotsTotal 21",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "SlotsRemaining 21",
+      "label": "SlotsRemaining 21",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1047",
+      "label": "Spells 1047",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1048",
+      "label": "Spells 1048",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1049",
+      "label": "Spells 1049",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1050",
+      "label": "Spells 1050",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1051",
+      "label": "Spells 1051",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1052",
+      "label": "Spells 1052",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1053",
+      "label": "Spells 1053",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1054",
+      "label": "Spells 1054",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1055",
+      "label": "Spells 1055",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1056",
+      "label": "Spells 1056",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1057",
+      "label": "Spells 1057",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1058",
+      "label": "Spells 1058",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1059",
+      "label": "Spells 1059",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "SlotsTotal 22",
+      "label": "SlotsTotal 22",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "SlotsRemaining 22",
+      "label": "SlotsRemaining 22",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1060",
+      "label": "Spells 1060",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1061",
+      "label": "Spells 1061",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1062",
+      "label": "Spells 1062",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1063",
+      "label": "Spells 1063",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1064",
+      "label": "Spells 1064",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 323",
+      "label": "Check Box 323",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 322",
+      "label": "Check Box 322",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3067",
+      "label": "Check Box 3067",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3068",
+      "label": "Check Box 3068",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3069",
+      "label": "Check Box 3069",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3070",
+      "label": "Check Box 3070",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3071",
+      "label": "Check Box 3071",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3072",
+      "label": "Check Box 3072",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3073",
+      "label": "Check Box 3073",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1065",
+      "label": "Spells 1065",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1066",
+      "label": "Spells 1066",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1067",
+      "label": "Spells 1067",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1068",
+      "label": "Spells 1068",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1069",
+      "label": "Spells 1069",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1070",
+      "label": "Spells 1070",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1071",
+      "label": "Spells 1071",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 317",
+      "label": "Check Box 317",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1072",
+      "label": "Spells 1072",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "SlotsTotal 23",
+      "label": "SlotsTotal 23",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "SlotsRemaining 23",
+      "label": "SlotsRemaining 23",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1073",
+      "label": "Spells 1073",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1074",
+      "label": "Spells 1074",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1075",
+      "label": "Spells 1075",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1076",
+      "label": "Spells 1076",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1077",
+      "label": "Spells 1077",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1078",
+      "label": "Spells 1078",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1079",
+      "label": "Spells 1079",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1080",
+      "label": "Spells 1080",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1081",
+      "label": "Spells 1081",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "SlotsTotal 24",
+      "label": "SlotsTotal 24",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "SlotsRemaining 24",
+      "label": "SlotsRemaining 24",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1082",
+      "label": "Spells 1082",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1083",
+      "label": "Spells 1083",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1084",
+      "label": "Spells 1084",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1085",
+      "label": "Spells 1085",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1086",
+      "label": "Spells 1086",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1087",
+      "label": "Spells 1087",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1088",
+      "label": "Spells 1088",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1089",
+      "label": "Spells 1089",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1090",
+      "label": "Spells 1090",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "SlotsTotal 25",
+      "label": "SlotsTotal 25",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "SlotsRemaining 25",
+      "label": "SlotsRemaining 25",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1091",
+      "label": "Spells 1091",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1092",
+      "label": "Spells 1092",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1093",
+      "label": "Spells 1093",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1094",
+      "label": "Spells 1094",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1095",
+      "label": "Spells 1095",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1096",
+      "label": "Spells 1096",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1097",
+      "label": "Spells 1097",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1098",
+      "label": "Spells 1098",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 1099",
+      "label": "Spells 1099",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "SlotsTotal 26",
+      "label": "SlotsTotal 26",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "SlotsRemaining 26",
+      "label": "SlotsRemaining 26",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 10100",
+      "label": "Spells 10100",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 10101",
+      "label": "Spells 10101",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 10102",
+      "label": "Spells 10102",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 10103",
+      "label": "Spells 10103",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 316",
+      "label": "Check Box 316",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3042",
+      "label": "Check Box 3042",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3043",
+      "label": "Check Box 3043",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3044",
+      "label": "Check Box 3044",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3045",
+      "label": "Check Box 3045",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3046",
+      "label": "Check Box 3046",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3047",
+      "label": "Check Box 3047",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3048",
+      "label": "Check Box 3048",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3049",
+      "label": "Check Box 3049",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3050",
+      "label": "Check Box 3050",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3051",
+      "label": "Check Box 3051",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3052",
+      "label": "Check Box 3052",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Spells 10104",
+      "label": "Spells 10104",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 325",
+      "label": "Check Box 325",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 324",
+      "label": "Check Box 324",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3074",
+      "label": "Check Box 3074",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3075",
+      "label": "Check Box 3075",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3076",
+      "label": "Check Box 3076",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3077",
+      "label": "Check Box 3077",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Spells 10105",
+      "label": "Spells 10105",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 10106",
+      "label": "Spells 10106",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3078",
+      "label": "Check Box 3078",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "SlotsTotal 27",
+      "label": "SlotsTotal 27",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "SlotsRemaining 27",
+      "label": "SlotsRemaining 27",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 313",
+      "label": "Check Box 313",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 310",
+      "label": "Check Box 310",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3020",
+      "label": "Check Box 3020",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3021",
+      "label": "Check Box 3021",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3022",
+      "label": "Check Box 3022",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3023",
+      "label": "Check Box 3023",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3024",
+      "label": "Check Box 3024",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3025",
+      "label": "Check Box 3025",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3026",
+      "label": "Check Box 3026",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3027",
+      "label": "Check Box 3027",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3028",
+      "label": "Check Box 3028",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3029",
+      "label": "Check Box 3029",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3030",
+      "label": "Check Box 3030",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Spells 10107",
+      "label": "Spells 10107",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 10108",
+      "label": "Spells 10108",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 10109",
+      "label": "Spells 10109",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 101010",
+      "label": "Spells 101010",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 101011",
+      "label": "Spells 101011",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Spells 101012",
+      "label": "Spells 101012",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 319",
+      "label": "Check Box 319",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 318",
+      "label": "Check Box 318",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3053",
+      "label": "Check Box 3053",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3054",
+      "label": "Check Box 3054",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3055",
+      "label": "Check Box 3055",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3056",
+      "label": "Check Box 3056",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3057",
+      "label": "Check Box 3057",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3058",
+      "label": "Check Box 3058",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3059",
+      "label": "Check Box 3059",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 327",
+      "label": "Check Box 327",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 326",
+      "label": "Check Box 326",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3079",
+      "label": "Check Box 3079",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3080",
+      "label": "Check Box 3080",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3081",
+      "label": "Check Box 3081",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3082",
+      "label": "Check Box 3082",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Spells 101013",
+      "label": "Spells 101013",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Check Box 3083",
+      "label": "Check Box 3083",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 21",
+      "label": "Student name",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 22",
+      "label": "Year & college",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 23",
+      "label": "Text Field 23",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 24",
+      "label": "Text Field 24",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 25",
+      "label": "Text Field 25",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 26",
+      "label": "Text Field 26",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 27",
+      "label": "Text Field 27",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 28",
+      "label": "Text Field 28",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 29",
+      "label": "Text Field 29",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 30",
+      "label": "Text Field 30",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 31",
+      "label": "Text Field 31",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 32",
+      "label": "Text Field 32",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 34",
+      "label": "Text Field 34",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 35",
+      "label": "Text Field 35",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 36",
+      "label": "Text Field 36",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 37",
+      "label": "Text Field 37",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 38",
+      "label": "Text Field 38",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 39",
+      "label": "Text Field 39",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 40",
+      "label": "Text Field 40",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 41",
+      "label": "Text Field 41",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 42",
+      "label": "Text Field 42",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 43",
+      "label": "Text Field 43",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 44",
+      "label": "Text Field 44",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 45",
+      "label": "Text Field 45",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 46",
+      "label": "Text Field 46",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 47",
+      "label": "Text Field 47",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 48",
+      "label": "Text Field 48",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 49",
+      "label": "Text Field 49",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 50",
+      "label": "Text Field 50",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 51",
+      "label": "Text Field 51",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 52",
+      "label": "Text Field 52",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 53",
+      "label": "Text Field 53",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 54",
+      "label": "Text Field 54",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 55",
+      "label": "Text Field 55",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 56",
+      "label": "Text Field 56",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 57",
+      "label": "Text Field 57",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 58",
+      "label": "Text Field 58",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 59",
+      "label": "Text Field 59",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 60",
+      "label": "Text Field 60",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 61",
+      "label": "Text Field 61",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 62",
+      "label": "Text Field 62",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 63",
+      "label": "Text Field 63",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 64",
+      "label": "Text Field 64",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 65",
+      "label": "Text Field 65",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 66",
+      "label": "Text Field 66",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 67",
+      "label": "Text Field 67",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 68",
+      "label": "Text Field 68",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 69",
+      "label": "Text Field 69",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 70",
+      "label": "Text Field 70",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 71",
+      "label": "Text Field 71",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 72",
+      "label": "Text Field 72",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 73",
+      "label": "Text Field 73",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 74",
+      "label": "Text Field 74",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 75",
+      "label": "Text Field 75",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 76",
+      "label": "Text Field 76",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 77",
+      "label": "Text Field 77",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 78",
+      "label": "Text Field 78",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 79",
+      "label": "Text Field 79",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 80",
+      "label": "Text Field 80",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 81",
+      "label": "Text Field 81",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 82",
+      "label": "Text Field 82",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "Text Field 83",
+      "label": "Text Field 83",
+      "checkbox": false,
+      "multiline": false
+    },
+    {
+      "name": "C5",
+      "label": "C5",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "C6",
+      "label": "C6",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "C7",
+      "label": "C7",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "C8",
+      "label": "C8",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "C9",
+      "label": "C9",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "C10",
+      "label": "C10",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "C11",
+      "label": "C11",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "C12",
+      "label": "C12",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "C13",
+      "label": "C13",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "C14",
+      "label": "C14",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "C15",
+      "label": "C15",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "C16",
+      "label": "C16",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "C17",
+      "label": "C17",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "C18",
+      "label": "C18",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "C19",
+      "label": "C19",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "C20",
+      "label": "C20",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "C22",
+      "label": "C22",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "C23",
+      "label": "C23",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "C24",
+      "label": "C24",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "C25",
+      "label": "C25",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "C26",
+      "label": "C26",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "C27",
+      "label": "C27",
+      "checkbox": true,
+      "multiline": false
+    },
+    {
+      "name": "C21",
+      "label": "C21",
+      "checkbox": true,
+      "multiline": false
+    }
+  ],
+  "proficiencies": {
+    "ST Strength": "Check Box 11",
+    "ST Dexterity": "Check Box 18",
+    "ST Constitution": "Check Box 19",
+    "ST Intelligence": "Check Box 20",
+    "ST Wisdom": "Check Box 21",
+    "ST Charisma": "Check Box 22",
+    "Acrobatics": "Check Box 23",
+    "Animal": "Check Box 24",
+    "Athletics": "Check Box 26",
+    "Deception ": "Check Box 27",
+    "History ": "Check Box 28",
+    "Insight": "Check Box 29",
+    "Intimidation": "Check Box 30",
+    "Investigation ": "Check Box 31",
+    "Arcana": "Check Box 25",
+    "Perception ": "Check Box 34",
+    "Nature": "Check Box 33",
+    "Performance": "Check Box 35",
+    "Medicine": "Check Box 32",
+    "Religion": "Check Box 37",
+    "Stealth ": "Check Box 39",
+    "Persuasion": "Check Box 36",
+    "SleightofHand": "Check Box 38",
+    "Survival": "Check Box 40"
+  },
+  "spellGroups": [
+    {
+      "level": 0,
+      "names": [
+        "Spells 1014",
+        "Spells 1016",
+        "Spells 1017",
+        "Spells 1018",
+        "Spells 1019",
+        "Spells 1020",
+        "Spells 1021",
+        "Spells 1022"
+      ],
+      "total": "",
+      "spent": ""
+    },
+    {
+      "level": 1,
+      "names": [
+        "Spells 1015",
+        "Spells 1023",
+        "Spells 1024",
+        "Spells 1025",
+        "Spells 1026",
+        "Spells 1027",
+        "Spells 1028",
+        "Spells 1029",
+        "Spells 1030",
+        "Spells 1031",
+        "Spells 1032",
+        "Spells 1033"
+      ],
+      "total": "SlotsTotal 19",
+      "spent": "SlotsRemaining 19"
+    },
+    {
+      "level": 2,
+      "names": [
+        "Spells 1034",
+        "Spells 1035",
+        "Spells 1036",
+        "Spells 1037",
+        "Spells 1038",
+        "Spells 1039",
+        "Spells 1040",
+        "Spells 1041",
+        "Spells 1042",
+        "Spells 1043",
+        "Spells 1044",
+        "Spells 1045",
+        "Spells 1046"
+      ],
+      "total": "SlotsTotal 20",
+      "spent": "SlotsRemaining 20"
+    },
+    {
+      "level": 3,
+      "names": [
+        "Spells 1047",
+        "Spells 1048",
+        "Spells 1049",
+        "Spells 1050",
+        "Spells 1051",
+        "Spells 1052",
+        "Spells 1053",
+        "Spells 1054",
+        "Spells 1055",
+        "Spells 1056",
+        "Spells 1057",
+        "Spells 1058",
+        "Spells 1059"
+      ],
+      "total": "SlotsTotal 21",
+      "spent": "SlotsRemaining 21"
+    },
+    {
+      "level": 4,
+      "names": [
+        "Spells 1060",
+        "Spells 1061",
+        "Spells 1062",
+        "Spells 1063",
+        "Spells 1064",
+        "Spells 1065",
+        "Spells 1066",
+        "Spells 1067",
+        "Spells 1068",
+        "Spells 1069",
+        "Spells 1070",
+        "Spells 1071",
+        "Spells 1072"
+      ],
+      "total": "SlotsTotal 22",
+      "spent": "SlotsRemaining 22"
+    },
+    {
+      "level": 5,
+      "names": [
+        "Spells 1073",
+        "Spells 1074",
+        "Spells 1075",
+        "Spells 1076",
+        "Spells 1077",
+        "Spells 1078",
+        "Spells 1079",
+        "Spells 1080",
+        "Spells 1081"
+      ],
+      "total": "SlotsTotal 23",
+      "spent": "SlotsRemaining 23"
+    },
+    {
+      "level": 6,
+      "names": [
+        "Spells 1082",
+        "Spells 1083",
+        "Spells 1084",
+        "Spells 1085",
+        "Spells 1086",
+        "Spells 1087",
+        "Spells 1088",
+        "Spells 1089",
+        "Spells 1090"
+      ],
+      "total": "SlotsTotal 24",
+      "spent": "SlotsRemaining 24"
+    },
+    {
+      "level": 7,
+      "names": [
+        "Spells 1091",
+        "Spells 1092",
+        "Spells 1093",
+        "Spells 1094",
+        "Spells 1095",
+        "Spells 1096",
+        "Spells 1097",
+        "Spells 1098",
+        "Spells 1099"
+      ],
+      "total": "SlotsTotal 25",
+      "spent": "SlotsRemaining 25"
+    },
+    {
+      "level": 8,
+      "names": [
+        "Spells 10100",
+        "Spells 10101",
+        "Spells 10102",
+        "Spells 10103",
+        "Spells 10104",
+        "Spells 10105",
+        "Spells 10106"
+      ],
+      "total": "SlotsTotal 26",
+      "spent": "SlotsRemaining 26"
+    },
+    {
+      "level": 9,
+      "names": [
+        "Spells 10107",
+        "Spells 10108",
+        "Spells 10109",
+        "Spells 101010",
+        "Spells 101011",
+        "Spells 101012",
+        "Spells 101013"
+      ],
+      "total": "SlotsTotal 27",
+      "spent": "SlotsRemaining 27"
+    }
+  ],
+  "spellChecks": {
+    "Spells 1015": "Check Box 251",
+    "Spells 1023": "Check Box 309",
+    "Spells 1024": "Check Box 3010",
+    "Spells 1025": "Check Box 3011",
+    "Spells 1026": "Check Box 3012",
+    "Spells 1027": "Check Box 3013",
+    "Spells 1028": "Check Box 3014",
+    "Spells 1029": "Check Box 3015",
+    "Spells 1030": "Check Box 3016",
+    "Spells 1031": "Check Box 3017",
+    "Spells 1032": "Check Box 3018",
+    "Spells 1033": "Check Box 3019",
+    "Spells 1034": "Check Box 310",
+    "Spells 1035": "Check Box 3020",
+    "Spells 1036": "Check Box 3021",
+    "Spells 1037": "Check Box 3022",
+    "Spells 1038": "Check Box 3023",
+    "Spells 1039": "Check Box 3024",
+    "Spells 1040": "Check Box 3025",
+    "Spells 1041": "Check Box 3026",
+    "Spells 1042": "Check Box 3027",
+    "Spells 1043": "Check Box 3028",
+    "Spells 1044": "Check Box 3029",
+    "Spells 1045": "Check Box 3030",
+    "Spells 1046": "Check Box 313",
+    "Spells 1047": "Check Box 314",
+    "Spells 1048": "Check Box 315",
+    "Spells 1049": "Check Box 3031",
+    "Spells 1050": "Check Box 3032",
+    "Spells 1051": "Check Box 3033",
+    "Spells 1052": "Check Box 3034",
+    "Spells 1053": "Check Box 3035",
+    "Spells 1054": "Check Box 3036",
+    "Spells 1055": "Check Box 3037",
+    "Spells 1056": "Check Box 3038",
+    "Spells 1057": "Check Box 3039",
+    "Spells 1058": "Check Box 3040",
+    "Spells 1059": "Check Box 3041",
+    "Spells 1060": "Check Box 316",
+    "Spells 1061": "Check Box 317",
+    "Spells 1062": "Check Box 3042",
+    "Spells 1063": "Check Box 3043",
+    "Spells 1064": "Check Box 3044",
+    "Spells 1065": "Check Box 3045",
+    "Spells 1066": "Check Box 3046",
+    "Spells 1067": "Check Box 3047",
+    "Spells 1068": "Check Box 3048",
+    "Spells 1069": "Check Box 3049",
+    "Spells 1070": "Check Box 3050",
+    "Spells 1071": "Check Box 3051",
+    "Spells 1072": "Check Box 3052",
+    "Spells 1073": "Check Box 318",
+    "Spells 1074": "Check Box 319",
+    "Spells 1075": "Check Box 3053",
+    "Spells 1076": "Check Box 3054",
+    "Spells 1077": "Check Box 3055",
+    "Spells 1078": "Check Box 3056",
+    "Spells 1079": "Check Box 3057",
+    "Spells 1080": "Check Box 3058",
+    "Spells 1081": "Check Box 3059",
+    "Spells 1082": "Check Box 320",
+    "Spells 1083": "Check Box 321",
+    "Spells 1084": "Check Box 3060",
+    "Spells 1085": "Check Box 3061",
+    "Spells 1086": "Check Box 3062",
+    "Spells 1087": "Check Box 3063",
+    "Spells 1088": "Check Box 3064",
+    "Spells 1089": "Check Box 3065",
+    "Spells 1090": "Check Box 3066",
+    "Spells 1091": "Check Box 322",
+    "Spells 1092": "Check Box 323",
+    "Spells 1093": "Check Box 3067",
+    "Spells 1094": "Check Box 3068",
+    "Spells 1095": "Check Box 3069",
+    "Spells 1096": "Check Box 3070",
+    "Spells 1097": "Check Box 3071",
+    "Spells 1098": "Check Box 3072",
+    "Spells 1099": "Check Box 3073",
+    "Spells 10100": "Check Box 324",
+    "Spells 10101": "Check Box 325",
+    "Spells 10102": "Check Box 3074",
+    "Spells 10103": "Check Box 3075",
+    "Spells 10104": "Check Box 3076",
+    "Spells 10105": "Check Box 3077",
+    "Spells 10106": "Check Box 3078",
+    "Spells 10107": "Check Box 326",
+    "Spells 10108": "Check Box 327",
+    "Spells 10109": "Check Box 3079",
+    "Spells 101010": "Check Box 3080",
+    "Spells 101011": "Check Box 3081",
+    "Spells 101012": "Check Box 3082",
+    "Spells 101013": "Check Box 3083"
+  },
+  "environment": "",
+  "defaultEdition": "2014"
+}

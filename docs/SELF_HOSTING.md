@@ -1,6 +1,6 @@
 # Self-hosting Legendfolio
 
-This guide describes the Build 60 deployment layout. It covers a static Legendfolio frontend plus your own managed Supabase project. It does not describe running the Supabase server stack yourself.
+This guide describes the Build 61 public release. It covers a static frontend plus your own compatible Supabase project. Managed Supabase is the documented starter route; running the Supabase server stack itself is outside this guide.
 
 Local personal use needs no Supabase setup: run the included local server and choose **Enter Studio**. Connected accounts, cloud records and shared campaigns require the steps below.
 
@@ -42,7 +42,9 @@ These migrations target Supabase's existing `auth` roles/functions. They are not
 
 Use the project's **publishable** key, or a supported legacy anon key. Never use a secret/service-role key, database password or connection string in any browser configuration.
 
-The build reads these process environment variables:
+The default `cloud-config.json` is `{ "schema": 1, "enabled": false }`. Local entry works, and the Main Menu explains online setup instead of showing an unconfigured sign-in form.
+
+Set `LEGENDFOLIO_CLOUD_ENABLED=true` and provide these build-time process environment variables:
 
 ```text
 SUPABASE_URL=https://YOUR_PROJECT_REF.supabase.co
@@ -55,6 +57,7 @@ On Vercel, add them in the project's environment settings for the appropriate de
 For a local static build, set environment variables in the shell before running the build. For example, PowerShell:
 
 ```powershell
+$env:LEGENDFOLIO_CLOUD_ENABLED = 'true'
 $env:SUPABASE_URL = 'https://YOUR_PROJECT_REF.supabase.co'
 $env:SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_REPLACE_WITH_YOUR_KEY'
 $env:LEGENDFOLIO_SITE_URL = 'https://YOUR_APP_DOMAIN'
@@ -67,6 +70,8 @@ When serving the source folder through `server.py`, the browser reads that folde
 
 ```json
 {
+  "schema": 1,
+  "enabled": true,
   "supabaseUrl": "https://YOUR_PROJECT_REF.supabase.co",
   "supabasePublishableKey": "sb_publishable_REPLACE_WITH_YOUR_KEY",
   "siteUrl": "https://YOUR_APP_DOMAIN/",
@@ -74,23 +79,21 @@ When serving the source folder through `server.py`, the browser reads that folde
 }
 ```
 
-These examples are placeholders, not working credentials. Before publishing a fork, replace inherited live-service defaults with clearly labelled placeholder configuration. An example `.env` file should contain examples, not the upstream deployment's actual project settings. Do not publish local `.env` files.
+These examples are placeholders, not working credentials. This public release has no upstream live-service defaults. Keep operator configuration independent and do not publish local `.env` files. The build does not automatically load them. Partial configuration is rejected instead of silently falling back to someone else's project.
+
+Compatible self-hosted Supabase gateways and custom domains are accepted as HTTPS origins with the required APIs/schema. HTTP-only gateways and subpath API deployments are not supported by this contract. Auth, RLS, gateway configuration and email behaviour must still be validated on that instance.
+
+Changing the backend requires a rebuild, so configuration and generated network policy agree. With environment configuration, `npm start` serves the built `dist/` configuration. The Python launcher serves the root configuration file and does not inherit deployment environment values as backend configuration.
 
 Publishable keys are designed for browser use. They do not replace backend permission checks. [Supabase API keys](https://supabase.com/docs/guides/getting-started/api-keys)
 
 ## 4. Configure allowed network access
 
-The included Vercel Content Security Policy permits a specific Supabase origin. **Changing `SUPABASE_URL` does not automatically change that header.**
+The build generates a Content Security Policy meta tag with exact inline-script hashes and the configured Supabase HTTPS origin. Disabled builds permit no Supabase origin. No upstream address or manual script-hash replacement is needed.
 
-In `vercel.json`, update the Supabase HTTPS origin inside the `Content-Security-Policy` header's `connect-src` directive to match your project. Preserve the other directives and existing script hashes. The relevant portion should have this shape:
+`vercel.json` supplies complementary response headers, including `frame-ancestors 'none'` and `X-Frame-Options: DENY`. Do not add a conflicting hardcoded backend `connect-src` header. Other static hosts should reproduce these response headers; a `_headers` example is generated in `dist/`.
 
-```text
-connect-src 'self' https://YOUR_PROJECT_REF.supabase.co https://cdnjs.cloudflare.com;
-```
-
-Current connected features use HTTP polling. Future Realtime/Discord work will require its own reviewed network/frame policy; broad wildcard origins or disabling the policy is not a substitute.
-
-If you edit embedded scripts in `index.html`, their `script-src` hashes also need to be regenerated through the maintainer's release process. The supplied `scripts/build.mjs` does not regenerate those hashes.
+Rebuild after configuration/source changes. Editing only a deployed `cloud-config.json` does not update the HTML policy. Current services use HTTP polling; future Realtime/Discord work needs reviewed network/frame-policy changes. This release intentionally remains unembeddable.
 
 ## 5. Configure authentication
 
@@ -118,13 +121,13 @@ Run from the deployment root:
 node scripts/build.mjs
 ```
 
-The output is `dist/`. It includes the application, static assets, bundled libraries and validated public cloud configuration. The build does not apply migrations or test a live Supabase project.
+The output is `dist/`. It includes the application, static assets, notices, a corresponding-source archive and validated optional public cloud configuration. Preferred source in `src/` is assembled without private PDFs, personal images or an external workspace. The build does not apply migrations or test a live Supabase project.
 
 For Vercel:
 
 - Set Root Directory to the directory containing `vercel.json`.
 - Use the included configuration: build command `node scripts/build.mjs`, output directory `dist`, no framework preset required.
-- Set the environment values from step 3 and the allowed origin from step 4.
+- Set the environment values from step 3. The allowed backend origin is generated as described in step 4.
 - Deploy to HTTPS, then verify the resulting `cloud-config.json` uses your own public project configuration.
 
 For other static hosts, serve `dist/` and reproduce the security/cache headers in `vercel.json`. Do not serve the entire development tree, environment files or test databases. Keep update metadata/configuration fresh and the app/service-worker release identities consistent.
@@ -153,7 +156,7 @@ Preserve the supplied Row Level Security policies and validated operations. A su
 | --- | --- |
 | Local library appears empty | Hostname, port, browser profile and local/cloud character scope; restore a backup if you deliberately moved origins. |
 | Cloud configuration missing | Values in the served `cloud-config.json`, environment scope and build logs. A `.env` file is not loaded automatically. |
-| Browser blocks a cloud request | `connect-src` in the deployed CSP must include your project's HTTPS origin. |
+| Browser blocks a cloud request | Rebuild after changing configuration; inspect the generated HTML policy and any conflicting host headers. |
 | Missing table/function | Correct project and migration order; identify the first missing/failed migration. |
 | Confirmation/recovery returns to another site | Site URL, redirect allowlist and the deployed `LEGENDFOLIO_SITE_URL`. |
 | Email does not arrive | Supabase Auth/email configuration, provider delivery/rate limits and spam filtering. |

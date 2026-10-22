@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "enabled": true,
+  "supabaseUrl": "https://YOUR_PROJECT_REF.supabase.co",
+  "supabasePublishableKey": "sb_publishable_REPLACE_WITH_YOUR_KEY",
+  "siteUrl": "https://YOUR_APP_DOMAIN/",
+  "sdkPath": "./vendor/supabase-2.117.3.js"
+}

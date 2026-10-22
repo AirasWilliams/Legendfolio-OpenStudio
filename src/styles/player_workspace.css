@@ -1,0 +1,56 @@
+/* Character workspace: stable context beside task-focused work. */
+.ui-character-anchor{min-width:0;display:flex;flex-direction:column;gap:12px;margin-bottom:12px}
+.ui-character-anchor>.hero{margin:0;min-width:0}.ui-character-anchor>.ui-score-panel{grid-area:auto;width:100%;padding:14px;border:1px solid var(--line);border-radius:14px;background:var(--panel);box-sizing:border-box}
+.ui-character-anchor>.ui-score-panel .header-vitals{display:none!important}.ui-character-anchor>.ui-score-panel .header-score-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:6px}.ui-character-anchor>.ui-score-panel .header-score{min-width:0;background:var(--bg);color:var(--ink)}.ui-character-anchor>.ui-score-panel .header-score :is(strong,small){color:var(--ink)}
+.ui-character-anchor>.live-header-status{order:4}.ui-character-anchor>.device-playbar{order:2}.ui-character-anchor>.ui-score-panel{order:3}.ui-character-anchor>.hero{order:1}
+.ui-character-anchor .device-playbar>.button{width:auto;justify-self:start}.ui-character-anchor .hero-art{width:104px;height:138px}.ui-character-anchor .hero{grid-template-columns:104px minmax(0,1fr);grid-template-areas:'portrait identity';gap:16px}.ui-character-anchor .hero h1{font-size:clamp(24px,2vw,32px)}
+body[data-app-role=DM] .ui-character-anchor,body[data-loaded=false] .ui-character-anchor{display:none!important}
+@media screen and (min-width:1351px){
+ body[data-app-role=Player][data-loaded=true] .workspace{display:grid;grid-template-columns:clamp(290px,19vw,370px) minmax(0,1fr);grid-template-rows:auto auto minmax(0,1fr);gap:0 24px;align-items:start;padding:0 24px 36px;max-width:none}
+ body[data-app-role=Player][data-loaded=true] .workspace>*{grid-area:auto;min-width:0}
+ body[data-app-role=Player][data-loaded=true] .workspace>.toolbar{grid-column:1/-1;grid-row:1;margin-bottom:18px}
+ body[data-app-role=Player][data-loaded=true] .workspace>.ui-character-anchor{grid-column:1;grid-row:2/5;position:sticky;top:16px;max-height:calc(100dvh - 32px);overflow:auto;scrollbar-width:thin;margin:0;padding:0 4px 8px 0;gap:12px;align-self:start}
+ body[data-app-role=Player][data-loaded=true] .workspace>.studio-tabs{grid-column:2;grid-row:2;position:sticky;top:0!important;margin:0 0 18px;padding:0 0 10px;background:var(--bg);align-self:start}
+ body[data-app-role=Player][data-loaded=true] .workspace>#content{grid-column:2;grid-row:3}
+ .ui-character-anchor>.hero{display:flex;flex-direction:column;gap:14px;padding:14px;grid-template-areas:none;min-height:0}
+ .ui-character-anchor .hero-art{width:100%;height:clamp(210px,24dvh,320px);flex:none;min-height:210px;max-height:none;grid-area:auto;box-sizing:border-box;border-radius:11px}
+ .ui-character-anchor .hero-art img{width:100%;height:100%;object-fit:cover;object-position:center 30%}
+ .ui-character-anchor .hero-identity{width:100%;min-width:0}.ui-character-anchor .hero h1{font-size:28px;line-height:1.15;margin:5px 0 8px;overflow-wrap:anywhere}
+ .ui-character-anchor .hero .subtitle{font-size:13px}.ui-character-anchor .hero-meta{gap:5px}.ui-character-anchor .hero-meta span{font-size:12px;overflow-wrap:anywhere;white-space:normal}.ui-character-anchor .hero-details{font-size:13px;line-height:1.55}
+ .ui-character-anchor .connection-panel.is-compact{display:block;padding:7px;margin:8px 0}.ui-character-anchor .connection-heading{min-width:0;display:flex;gap:6px;flex-wrap:wrap}.ui-character-anchor .connection-status-details{margin-top:5px}
+ .ui-character-anchor>.ui-score-panel{padding:12px}.ui-character-anchor>.ui-score-panel .header-score-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.ui-character-anchor>.ui-score-panel .header-score{min-height:66px;padding:8px 4px}.ui-character-anchor .header-score strong{font-size:23px}.ui-character-anchor .header-proficiency{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.ui-character-anchor .header-proficiency>.button{font-size:12px;padding:7px 9px;min-height:40px}
+ .ui-character-anchor>.device-playbar{position:sticky;top:0;z-index:6;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;padding:12px;box-shadow:none;min-height:0}.ui-character-anchor .ui-vital-health{grid-column:1/-1}.ui-character-anchor .device-playbar strong{font-size:21px}.ui-character-anchor .device-playbar>.button{min-height:40px;padding:7px 10px;font-size:13px}.ui-character-anchor .ui-turn-line{font-size:12px}
+ .studio-split{grid-template-columns:minmax(270px,.7fr) minmax(0,1.3fr);gap:18px}.persistent-board{display:flex;flex-direction:column;gap:16px}.persistent-board>.combat-reference-column{order:0}.persistent-board>.skill-resource-column{order:1}.persistent-board .mini-skills{grid-template-columns:minmax(0,1fr)}
+ .ui-play-workbench{grid-template-columns:minmax(0,1fr);gap:16px}.ui-tools-column{grid-column:auto;display:flex!important}
+ .active-workspace-shell:has(#active-workspace[data-ui-play=true])>.workspace-heading{padding:0 0 12px}.workspace-heading h2{font-size:21px}
+}
+@media screen and (min-width:1800px){
+ .studio-split{grid-template-columns:minmax(440px,.85fr) minmax(0,1.15fr)}.persistent-board{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.persistent-board>.skill-resource-column{order:0}.persistent-board>.combat-reference-column{order:1}.persistent-board .mini-skills{grid-template-columns:minmax(0,1fr)}
+ .ui-play-workbench{grid-template-columns:repeat(2,minmax(0,1fr))}.ui-tools-column{grid-column:1/-1;display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}
+}
+@media screen and (min-width:2500px){
+ .studio-split{grid-template-columns:minmax(660px,.9fr) minmax(0,1.1fr)}.persistent-board .mini-skills{grid-template-columns:repeat(2,minmax(0,1fr))}.ui-play-workbench{grid-template-columns:minmax(290px,.95fr) minmax(340px,1.2fr) minmax(260px,.85fr)}.ui-tools-column{grid-column:auto;display:flex!important}
+ .workspace>.studio-tabs{grid-template-columns:repeat(auto-fit,minmax(130px,1fr))}
+}
+@media screen and (min-width:700px) and (max-width:1350.98px){
+ .ui-character-anchor{display:grid;grid-template-columns:minmax(0,1fr);gap:12px}.ui-character-anchor .hero{grid-template-columns:120px minmax(0,1fr);grid-template-areas:'portrait identity';align-items:start}.ui-character-anchor .hero-art{width:120px;height:164px}.ui-character-anchor>.device-playbar{position:sticky;top:0;grid-template-columns:1.2fr .6fr .6fr .8fr auto auto}
+ .ui-character-anchor>.ui-score-panel{padding:12px}.ui-character-anchor>.ui-score-panel .header-score-grid{grid-template-columns:repeat(6,minmax(0,1fr))}
+}
+@media screen and (max-width:699.98px){
+ .ui-character-anchor{display:flex;gap:10px}.ui-character-anchor .hero{padding:12px;grid-template-columns:86px minmax(0,1fr);grid-template-areas:'portrait identity' 'profile profile';gap:12px}.ui-character-anchor .hero-art{width:86px;height:120px}.ui-character-anchor .hero h1{font-size:24px}.ui-character-anchor>.ui-score-panel{display:none}body[data-device-profile-open=true] .ui-character-anchor>.ui-score-panel{display:block}.ui-character-anchor>.device-playbar{position:sticky;top:0}.ui-character-anchor>.live-header-status{order:4}
+}
+@media print{.ui-character-anchor{display:block!important;overflow:visible!important;max-height:none!important;position:static!important}.ui-character-anchor>.ui-score-panel{display:block!important}.workspace{display:block!important}}
+
+/* Reset legacy generic aside styles so the character dock follows the theme. */
+.ui-character-anchor{background:transparent!important;color:var(--ink);border:0;box-shadow:none;box-sizing:border-box}
+.ui-character-anchor .device-playbar{color:var(--ink)}.ui-character-anchor .device-playbar :is(strong,small){color:var(--ink)}.ui-character-anchor .device-playbar .temp-plus{color:#289668}
+.ui-tools-column>*{width:100%;box-sizing:border-box;min-width:0}.ui-tools-column>.scene-quick-tools{background:var(--panel);border:1px solid var(--line);border-radius:10px}
+@media screen and (min-width:1351px){.ui-character-anchor>.device-playbar{order:0}.ui-character-anchor>.hero{order:1}.ui-character-anchor>.ui-score-panel{order:2}.ui-character-anchor>.live-header-status{order:3}}
+
+.ui-character-anchor{height:auto!important;min-height:0!important;justify-content:flex-start!important;align-items:stretch!important;align-content:start}
+@media screen and (min-width:1351px){.ui-character-anchor .hero-art{height:clamp(210px,20dvh,320px)}.ui-character-anchor{max-height:calc(100dvh - 120px)!important}.ui-character-anchor>*{flex-shrink:0}}
+@media screen and (max-width:1350.98px){.ui-character-anchor{display:contents}.ui-character-anchor>.hero,.ui-character-anchor>.ui-score-panel{margin-bottom:12px}.ui-character-anchor>.device-playbar{position:sticky;top:0;z-index:55;margin-bottom:12px}}
+
+/* Tool disclosures form a single utility area, rather than header-like cards. */
+.ui-tools-column{padding:14px;border:1px solid var(--line);border-radius:14px;background:var(--panel);box-sizing:border-box}.ui-tools-column>h3{margin:0 0 4px;font-size:17px}.ui-tools-column>:is(.workspace-fold,.scene-local-history,.scene-quick-tools){border:0!important;border-radius:0!important;background:transparent!important;padding:0!important;margin:0!important;box-shadow:none}.ui-tools-column>:is(.workspace-fold,.scene-local-history){border-top:1px solid var(--line)!important;padding-top:7px!important}
+.persistent-context{align-items:start}.persistent-context .context-card{height:auto;min-height:0;align-self:start}.persistent-context .live-party-board{max-height:460px;overflow:auto;overscroll-behavior:contain}
