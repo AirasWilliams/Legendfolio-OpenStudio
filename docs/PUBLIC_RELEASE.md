@@ -28,9 +28,15 @@ Place this package's contents at the repository root. This export includes no Gi
 
 The official deployment is not reconfigured by this package. Its environment settings remain the operator's responsibility. Fork accounts/campaigns are independent unless operators deliberately use the same trusted backend.
 
-Review the package and enable GitHub private vulnerability reporting before inviting contributions. Add actual repository/contact details when known; this release invents neither a security mailbox nor an SLA.
+Review the package and enable GitHub private vulnerability reporting before inviting security reports. Add actual repository/contact details when known; this release invents neither a security mailbox nor an SLA.
 
 Before public connected registration, verify Auth/email delivery, campaign isolation, backups, abuse handling and provider limits on the actual deployment. Local automated checks do not establish live acceptance.
+
+## Official development and independent forks
+
+The maintainer and internal team direct official development and releases. Bug reports, reproducible examples, accessibility feedback, documentation corrections and suggestions are welcome through Issues. External pull requests are not accepted, and forked repositories are not merged into the official codebase. See [the feedback and development policy](../CONTRIBUTING.md).
+
+Independent forks, modifications and redistribution remain permitted under AGPL-3.0-only and the applicable content licences. This official contribution policy does not add licence restrictions. Clearly identify unofficial builds and preserve the required notices and corresponding-source availability.
 
 ## Release discipline
 

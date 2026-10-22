@@ -1,18 +1,24 @@
-# Contributing to Legendfolio
+# Feedback and development policy
 
-Thanks for helping make a practical tabletop companion. Small, focused improvements are easier to review and protect the workflows players already rely on.
+Legendfolio follows a maintainer-directed development process. The maintainer and internal team set the official roadmap, implement changes, review them and publish releases.
 
-Original application code is AGPL-3.0-only. Submit code you have the right to contribute under that licence. No copyright transfer or separate contributor agreement is assumed. Third-party content retains its applicable terms; see LICENSES.md.
+**External pull requests are not accepted.** This applies to code, documentation, tests and assets. Pull requests may be closed without merging; forked repositories are not merged into the official codebase. Opening an issue or receiving a response does not authorise an external pull request or promise implementation.
 
-## Useful contributions
+## Welcome feedback
 
 - Reproducible reports of layout, interaction or data problems.
-- Accessibility and real-device testing.
-- Documentation improvements and setup corrections.
-- Focused fixes with meaningful regression evidence.
+- Accessibility and real-device testing results.
+- Documentation errors and setup corrections reported through Issues.
+- Feature suggestions and minimal examples using fictional data.
 - Rules corrections with an appropriate source and a clear edition distinction.
 
-Discuss new systems, major interface changes and database architecture before implementation. The [roadmap](docs/ROADMAP.md) explains current priorities.
+Use Issues for feedback and suggestions. The internal team investigates reports and implements official changes. The [roadmap](docs/ROADMAP.md) explains current priorities; a report or suggestion does not imply a release date or support commitment.
+
+## Open-source rights and independent forks
+
+Original application code is licensed under AGPL-3.0-only. Independent forks, modifications, use and redistribution remain permitted under that licence. This official contribution policy does not add restrictions to the licence or require permission to exercise its rights.
+
+Fork maintainers may run their own contribution processes. Preserve required notices, provide corresponding source where required and clearly identify unofficial builds. Third-party content and branding have separate terms; see [LICENSES.md](LICENSES.md) and [BRANDING.md](BRANDING.md).
 
 ## Report a problem
 
@@ -26,7 +32,7 @@ Use the repository's Issues tab for ordinary bugs. Include:
 
 Keep emails, tokens, character secrets, private campaign notes and personal artwork out of public reports. Use [SECURITY.md](SECURITY.md) for vulnerabilities.
 
-## Develop safely
+## Internal development and independent forks
 
 Use your own test backend and fictional records. Never develop against the maintainer's production database by inheriting its browser configuration. Back up important local records before testing imports or migrations.
 
@@ -44,9 +50,9 @@ Run the included reproducible public checks with:
 npm test
 ```
 
-These exercise backend configuration, source assembly, deterministic build/archive, cloud helpers and gameplay cores using fictional data. They are not live Supabase acceptance. Historical database/UI suites are not all included; add focused public tests with clear prerequisites as this contributor suite grows. Use `npm start` after building to serve `dist/` locally.
+These exercise backend configuration, source assembly, deterministic build/archive, cloud helpers and gameplay cores using fictional data. They are not live Supabase acceptance. Historical database/UI suites are not all included. Internal developers and independent fork maintainers should add focused tests with clear prerequisites for their changes. Use `npm start` after building to serve `dist/` locally.
 
-## Review expectations
+## Review practices for internal changes and independent forks
 
 - Describe the concrete problem and resulting behaviour.
 - Keep scope narrow and include appropriate verification.
@@ -58,6 +64,6 @@ These exercise backend configuration, source assembly, deterministic build/archi
 - Preserve private information boundaries and existing character data.
 - Keep roadmap capabilities separate from delivered behaviour in descriptions and documentation.
 
-Do not submit copied commercial rulebook/adventure text, maps or artwork without appropriate redistribution permission. Code licensing and content licensing are separate.
+Do not include copied commercial rulebook/adventure text, maps or artwork without appropriate redistribution permission. Code licensing and content licensing are separate.
 
-The maintainer decides the official roadmap and accepts contributions after review. A proposed change does not imply a release date or support commitment.
+The practices above describe responsible development; they do not constitute an invitation to submit pull requests to the official repository. Report security concerns privately through [SECURITY.md](SECURITY.md).

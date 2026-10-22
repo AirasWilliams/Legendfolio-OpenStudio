@@ -230,9 +230,9 @@ Follow the [complete self-hosting guide](docs/SELF_HOSTING.md) for exact configu
 
 ## Development and contribution
 
-This preview is evolving quickly. Useful contributions include reproducible bug reports, accessibility feedback, responsive-layout fixes, tests, documentation and clearly scoped improvements.
+Legendfolio follows a maintainer-directed development process. Reproducible bug reports, accessibility and device-testing feedback, documentation corrections and suggestions are welcome through Issues. The maintainer and internal team investigate reports and implement official changes.
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md) before a substantial change. Discuss large architecture or feature changes first so work aligns with the roadmap and campaign authority model.
+**External pull requests are not accepted, and forked repositories are not merged into the official codebase.** Independent forks, modifications and redistribution remain permitted under AGPL-3.0-only and the applicable content licences. This governance policy does not restrict those licence rights. Read [CONTRIBUTING.md](CONTRIBUTING.md) for feedback, development and fork guidance, and [SECURITY.md](SECURITY.md) for private vulnerability reporting.
 
 ### Current deployment layout
 
