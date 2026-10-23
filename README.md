@@ -10,14 +10,16 @@ Legendfolio is a local-first tabletop roleplaying companion for players and Dung
 
 It began as a personal character tracker and is growing into a shared play environment. The aim is straightforward: help players understand their options, reduce bookkeeping and give DMs practical control over their campaigns.
 
-**Current application: Build 61 · Public Preview**  
+**Current application: Build 62 · Public Preview — Performance update**  
 **Status: actively developed public preview**  
 **Code: AGPL-3.0-only · Portraits: CC BY 4.0 where applicable**  
 **Rules foundations: D&D 5e (2014) and revised 2024 rules, with custom proposals**
 
+[Build 62 release notes and update guidance](docs/BUILD62_RELEASE.md)
+
 [Open Legendfolio](https://legendfolio.vercel.app/) · [Run locally](#run-locally) · [Set up your own cloud deployment](docs/SELF_HOSTING.md) · [Roadmap](docs/ROADMAP.md)
 
-> WORLD, Worldcraft Studio, playable maps, tokens, fog of war, automatic vision and Discord Activities are planned. They are not included in Build 61.
+> WORLD, Worldcraft Studio, playable maps, tokens, fog of war, automatic vision and Discord Activities are planned. They are not included in this public preview.
 
 ## Contents
 

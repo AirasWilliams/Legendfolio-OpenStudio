@@ -1,5 +1,5 @@
 /* Static release checks never touch character ownership or cloud approvals. */
-const LegendfolioRelease={version:'61',id:'__LEGENDFOLIO_RELEASE_ID__'};
+const LegendfolioRelease={version:'62',id:'__LEGENDFOLIO_RELEASE_ID__'};
 const LegendfolioUpdates=(()=>{
  function inspect(current,remote){if(!remote||remote.schema!==1||typeof remote.id!=='string'||!/^[a-f0-9]{64}$/.test(remote.id)||typeof remote.version!=='string')throw Error('The update information is invalid.');return{...remote,available:remote.id!==current.id};}
  async function read(current,{fetcher=fetch,base=location.href,signal}={}){const url=new URL('./release.json',base);url.searchParams.set('check',String(Date.now()));const response=await fetcher(url.href,{cache:'no-store',credentials:'same-origin',signal});if(!response.ok)throw Error('Update service returned '+response.status);return inspect(current,await response.json());}

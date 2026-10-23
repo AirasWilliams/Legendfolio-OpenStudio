@@ -1,3 +1,11 @@
+# Build 62 stabilisation review
+
+24 October 2026. The public preview received only the performance fixes already verified by the maintainer in private Build 65. Backend defaults, existing feature scope, all 18 migration scripts and licensing/attribution remain in place. The patch includes compact save migration, history/selection isolation, single-flight saves, retained artwork DOM and bounded lazy service-worker caching.
+
+The expanded public suite passes locally, including blank/default-disabled and configured builds, script syntax/CSP, source ZIP completeness and reproducibility, save migration/failure/undo tests and offline/update/cache concurrency tests. A clean extracted corresponding-source build is checked before distribution. No actual public-user RAM measurements are claimed. Release CI verifies the public build before assembling/publishing matching prebuilt files and a versioned ZIP.
+
+## Previous public preview review
+
 # Build 61 review
 
 23 October 2026. This report describes local verification of the public package, not deployment to GitHub/Vercel or acceptance of a new hosted Supabase instance.

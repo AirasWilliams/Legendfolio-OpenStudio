@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "61",
+  "version": "62",
   "placeholders": {
     "__STYLE__": [
       "src/styles/living.css"
@@ -128,6 +128,7 @@
     "src/features/update_checker.js",
     "src/features/smart_files.js",
     "src/features/smart_play.js",
-    "src/features/public_backend.js"
+    "src/features/public_backend.js",
+    "src/features/performance_ui.js"
   ]
 }

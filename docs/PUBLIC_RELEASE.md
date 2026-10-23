@@ -1,6 +1,6 @@
 # Public release and hosting policy
 
-Build 61 keeps the connected feature code with local-first entry and optional instance configuration. It does not introduce a public shared development database.
+Build 62 keeps the connected feature code with local-first entry and optional instance configuration. It does not introduce a public shared development database.
 
 ## Package contents
 
@@ -43,3 +43,7 @@ Independent forks, modifications and redistribution remain permitted under AGPL-
 Preserve source downloads, notices, migration order, matching cache identities and explicit local/cloud scopes. Additive database changes and reviewed increments protect existing users.
 
 WORLD, Worldcraft Studio, tabletop tokens/movement, fog/vision and Discord remain planned. See [ROADMAP.md](ROADMAP.md).
+
+## Tested public package publication
+
+A direct maintainer push to public `main` runs build/tests with read-only permissions. After those pass, a separate publishing job regenerates the five prebuilt application/source files, verifies the remote head and uses a non-forced push. Pull requests cannot run the write job. A new build version produces a versioned GitHub release ZIP and checksum; existing curated release assets are retained. See [Build 62 notes](BUILD62_RELEASE.md). Routine development remains outside this publication path.

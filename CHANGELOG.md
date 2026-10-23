@@ -1,5 +1,17 @@
 # Changelog
 
+## Build 62 — Public performance update — 24 October 2026
+
+- Ported the maintainer-verified memory/responsiveness fixes from private Build 65 into the public Build 61 feature set.
+- Compact, debounced local storage preserves undo/redo, artwork and campaign recovery without duplicating large image strings in every saved history state.
+- Avoided duplicate startup loads, repeated portrait replacement and redundant presentation refreshes.
+- Replaced eager portrait/PDF installation downloads with a small shell and bounded on-demand caching.
+- Added migration/failure/selection/cache regression tests and reproducible source/archive line endings.
+- The public build remains backend-disabled by default, with existing licensing/notices and migrations 001–018. No Worldcraft/private feature rollout or database migration is included.
+- Tested public source is assembled into matching prebuilt files and a versioned distribution by CI; concurrent public-main changes are protected by a head check and non-forced push.
+
+See [Build 62 release notes](docs/BUILD62_RELEASE.md) before updating or downgrading.
+
 ## Build 61 — Public Preview — 23 October 2026
 
 - Independent public source/deployment package based on the working Build 60 SMART PLAY interface.

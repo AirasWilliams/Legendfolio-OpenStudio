@@ -1,5 +1,8 @@
 name: Verify public build
-on: [push, pull_request]
+on:
+  push:
+    branches: [main]
+  pull_request:
 permissions:
   contents: read
 jobs:
@@ -12,3 +15,47 @@ jobs:
           node-version: '22'
       - run: npm run build
       - run: npm test
+  publish-tested-package:
+    needs: build-and-test
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository == 'AirasWilliams/Legendfolio-OpenStudio'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm run build
+      - name: Publish matching prebuilt files without overwriting concurrent changes
+        id: source
+        shell: bash
+        run: |
+          git fetch origin main
+          test "$(git rev-parse origin/main)" = "$GITHUB_SHA" || { echo 'Public main changed; leaving it untouched.'; exit 1; }
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html sw.js release.json manifest.webmanifest legendfolio-source.zip
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish tested public application and matching source archive'
+            git push origin HEAD:main
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Build downloadable public distribution
+        run: node scripts/package-release.mjs
+      - name: Publish the versioned release once
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PUBLISHED_SHA: ${{ steps.source.outputs.sha }}
+        shell: bash
+        run: |
+          version=$(node -p "JSON.parse(require('fs').readFileSync('release.json','utf8')).version")
+          tag="build-$version"
+          if gh release view "$tag" >/dev/null 2>&1; then
+            echo "Release $tag already exists; retaining its curated assets."
+            exit 0
+          fi
+          gh release create "$tag" "artifacts/Legendfolio_Open_Studio_Public_Build$version.zip" "artifacts/Legendfolio_Open_Studio_Public_Build$version.zip.sha256" --target "$PUBLISHED_SHA" --title "Build $version - Public performance update" --notes-file docs/BUILD62_RELEASE.md --latest
